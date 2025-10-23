@@ -42,15 +42,19 @@ def main():
 
 
   # run analysis of invoice
+  print("Analyzing any sysco invoices")
   sysco_inv.main()
 
   # update master pricing doc using info gathered from invoice analysis
+  print("Updating the master pricing list with info from invoice")
   update_pricing.main()
 
   # read old inventory to get a schema of how it's laid out
+  print("Reading in old inventory information as structure for new sheet")
   read_inv.main()
 
   # create new inventory using schema of old inventory updated with newer pricing
+  print("Creating new inventory sheet")
   create.main()
 
 

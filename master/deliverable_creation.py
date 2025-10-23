@@ -36,8 +36,7 @@ def check_unit_type(unit_type):
 
 
 
-
-def move_and_archive_document(filename, origin_dir, destination_dir):
+def move_and_archive_document(filename, origin_dir, destination_dir, remove = False):
     """
     Copies a specified file from the origin directory to the destination directory,
     appending a datetime stamp to the copied file's name. The original file
@@ -75,21 +74,22 @@ def move_and_archive_document(filename, origin_dir, destination_dir):
         os.makedirs(destination_dir, exist_ok=True)
         print(f"Created destination directory: {destination_dir}")
 
-    # --- 3. COPY THE FILE ---
+     # --- 3. COPY THE FILE ---
     try:
-        # Use shutil.copy2() to copy the file (including metadata)
-        # The file remains in source_path (origin_dir)
         shutil.copy2(source_path, destination_path)
-        
-        print(f"Successfully archived: {filename}")
-        print(f"Original file saved in: {origin_dir}")
-        print(f"Archived copy moved to: {destination_dir}")
-        print(f"New archived filename: {new_filename}")
+        print(f"Archived: {filename} → {destination_path}")
+
+        # --- 4. OPTIONALLY REMOVE ORIGINAL ---
+        if remove:
+            os.remove(source_path)
+            print(f"Removed original file from: {origin_dir}")
+        else:
+            print(f"Original file retained in: {origin_dir}")
 
     except FileNotFoundError:
         print(f"Error: Source file not found at {source_path}")
     except Exception as e:
-        print(f"An unexpected error occurred while archiving the file: {e}")
+        print(f"Unexpected error while archiving {filename}: {e}")
 
     print("")
     return
@@ -109,13 +109,8 @@ def main():
   with open("master\\schemas\\misc_item_locs.json") as file:
     misc_list = json.load(file)
 
-  for filename in [
-    "sections_order_info.json",
-    "misc_item_locs.json",
-    "vcode_locs.json"]:
-    move_and_archive_document(filename, "master\\schemas\\", "master\\schemas\\archive")
 
-  master_list = pd.read_csv("master\\master_inventory_list.csv")
+  master_list = pd.read_csv("master\\archive\\master_inventory_list.csv")
 
   deliverable_path = "deliverables\\printable_inventory_sheet.xlsx"
 
@@ -270,7 +265,7 @@ def main():
       "PACK", "PER_PACK", "PRICE", "QUANTITY"]
   )
   deliverable["EST_PRICE"] = 0
-  deliverable["TOTAL EST VALUE"] = np.nan
+  deliverable["TOTAL_EST_VALUE"] = np.nan
 
   deliverable.to_excel(deliverable_path)
 
@@ -343,7 +338,7 @@ def main():
     cell = ws.cell(row = i, column = vender_col)
     if cell.value in all_sections_info.keys():
       # merge all 8 rows
-      ws.merge_cells(f"B{i}:I{i}") 
+      ws.merge_cells(f"B{i}:J{i}") 
 
       # format first leftmost visible cell in merged range
       merged_cell = ws.cell(row = i, column = 2)
@@ -371,7 +366,7 @@ def main():
         break
     if total_text:
       # merging columns B - I for this row
-      ws.merge_cells(f"B{i}:I{i}") 
+      ws.merge_cells(f"B{i}:J{i}") 
 
       top_left = ws[f"B{i}"]
       top_left.value = total_text
@@ -380,11 +375,11 @@ def main():
       start_row = last_total_row + 1
       end_row = i - 1
       if end_row >= start_row:
-        formula = f"=SUM(I{start_row}:I{end_row})"
+        formula = f"=SUM(J{start_row}:J{end_row})"
       else:
         formula = "=0"
 
-      total_cell = ws[f"J{i}"]
+      total_cell = ws[f"K{i}"]
       total_cell.value = formula
       total_cell.number_format = pyxl.styles.numbers.FORMAT_CURRENCY_USD_SIMPLE
 
@@ -430,33 +425,32 @@ def main():
   ## FORMATTING VENDOR_CODE TO BE TEXT TO PRESERVE LEADING ZEROS
 
 
+  ## ADDING TOTAL OF TOTAL_EST_VALUE FOR TOTAL VALUE ACROSS INVENTORY
+  last_row = ws.max_row
+  
+  ws["K2"].value = f"=SUM(K3:K{last_row})"
+  ws["K2"].number_format = pyxl.styles.numbers.FORMAT_CURRENCY_USD_SIMPLE
+  ws["K2"].font = pyxl.styles.Font(bold = True)
+
+
+
 
   ## ADJUST COLUMN WIDTHS AND HEADER ROW HEIGHT
   ws.column_dimensions["B"].width = 20
   ws.column_dimensions["C"].width = 15
-  ws.column_dimensions["D"].width = 15
+  ws.column_dimensions["D"].width = 40
+  ws.column_dimensions["K"].width = 15
   for col in range(5, 11):
     col_letter = pyxl.utils.get_column_letter(col)
     ws.column_dimensions[col_letter].width = 10
 
   ws.row_dimensions[1].height = 35
-
-  printed.save(deliverable_path)
-
-
-
   
-
-
-
-
-
-
-
-
-
-
-
+  try:
+    printed.save(deliverable_path)
+    print(f"File saved successfully in {deliverable_path}")
+  except Exception as e:
+    print(f"An unexpected error occurred while saving the file: {e}")
 
 
 

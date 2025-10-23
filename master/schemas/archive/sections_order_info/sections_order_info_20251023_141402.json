@@ -1,16 +1,16 @@
 {
   "MK WALK IN": [
     [
-      "SYSCO, 4184453.0",
+      "SYSCO, 4184453",
       "SYSCO, GRAPE JELLY"
     ],
     [
-      "SYSCO, 4186441.0",
+      "SYSCO, 4186441",
       "SYSCO, ORANGE MARMELADE"
     ],
     [
-      "SYSCO/CLASSIC, 4006797.0",
-      "SYSCO/CLASSIC, MUSTARD YELLOW PREPARED"
+      "SYSCO, 4006797",
+      "SYSCO, MUSTARD"
     ],
     [
       "SYSCO, NAN",
@@ -25,7 +25,7 @@
       "NAN, SOUP?"
     ],
     [
-      "SUPERIOR, NAN",
+      "SUPERIOR, 89013",
       "SUPERIOR, BISTRO FILET"
     ],
     [
@@ -33,7 +33,7 @@
       "MSU, PORK CHOP"
     ],
     [
-      "SUPERIOR, NAN",
+      "SUPERIOR, 88409",
       "SUPERIOR, NY STRIP"
     ],
     [
@@ -42,7 +42,7 @@
     ],
     [
       "MSU, NAN",
-      "MSU, MSU 8OZ BURGER"
+      "MSU, MSU 8OZ BURGER "
     ],
     [
       "SUPERIOR, NAN",
@@ -81,12 +81,12 @@
       "STAN SETAS, GARLIC CLOVES"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 2410",
       "STAN SETAS, STANDARD ASPARAGUS"
     ],
     [
-      "SYSCO/IMPERIAL, 1821529.0",
-      "SYSCO/IMPERIAL, SHALLOT PEELED FRESH"
+      "SYSCO, 1821529",
+      "SYSCO, SHALLOTS PEELED"
     ],
     [
       "NAN, NAN",
@@ -117,8 +117,8 @@
       "SYSCO, LASAGNA"
     ],
     [
-      "SYSCO/ARREZZIO, 873301.0",
-      "SYSCO/ARREZZIO, CHEESE PARMESAN SHREDDED FANCY"
+      "SYSCO, 873301",
+      "SYSCO, SHREDDED PARMESAN CHEESE"
     ],
     [
       "SYSCO, NAN",
@@ -129,19 +129,19 @@
       "MSU, OUTSIDE SKIRT STEAK"
     ],
     [
-      "SYSCO/JIMMY DEAN, 1494079.0",
-      "SYSCO/JIMMY DEAN, SAUSAGE LINKS 1 OZ"
+      "SYSCO, 1494079",
+      "SYSCO, SAUSAGE LINKS"
     ],
     [
       "SYSCO, NAN",
       "SYSCO, 6OZ SIRLOINS"
     ],
     [
-      "NORTHERN LAKES, NAN",
+      "NORTHERN LAKES, 41420556",
       "NORTHERN LAKES, BABY BACK RIBS"
     ],
     [
-      "SYSCO, 5131869.0",
+      "SYSCO, 5131869",
       "SYSCO, BASEBALL STEAK 6OZ"
     ],
     [
@@ -205,7 +205,7 @@
       "SYSCO, RED MISO"
     ],
     [
-      "SCHREIBER, NAN",
+      "SCHREIBER, 1298",
       "SCHREIBER, CHICKEN BASE PREMIUM"
     ],
     [
@@ -273,25 +273,31 @@
       "SYSCO, EGG YOLK"
     ],
     [
-      "SUPERIOR, NAN",
+      "SUPERIOR, 68203",
       "SUPERIOR, SCOTTISH SALMON"
     ],
     [
-      "SUPERIOR, NAN",
+      "SUPERIOR, 20240",
       "SUPERIOR, BLACK BASS"
     ],
     [
-      "SUPERIOR, NAN",
+      "SUPERIOR, 35026",
       "SUPERIOR, WHITEFISH"
     ],
     [
-      "SUPERIOR, NAN",
+      "SUPERIOR, 90265",
       "SUPERIOR, 20 LBS CHICK BREAST 6OZ"
     ],
     [
-      "SYSCO/BUTCHER'S BLOCK, 4230967.0",
-      "SYSCO/BUTCHER'S BLOCK, BEEF RIBEYE LIP-ON BONELESS"
+      "SYSCO, 4230967",
+      "SYSCO, BEEF RIBEYE"
     ],
+    [
+      "NAN, NAN",
+      "NAN, MK WALK IN TOTAL:"
+    ]
+  ],
+  "MK BLUE RACK": [
     [
       "FARMER DENNIS, NAN",
       "FARMER DENNIS, YELLOW ONION"
@@ -305,11 +311,11 @@
       "FARMER DENNIS, RED ONION"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 3620",
       "STAN SETAS, ONION, COLOSSAL"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 3655",
       "STAN SETAS, ONION, RED JUMBO"
     ],
     [
@@ -341,32 +347,38 @@
       "SYSCO, CORNMEAL"
     ],
     [
-      "NAN, NAN",
-      "NAN, GLUTEN FREE FLOUR"
+      "?, NAN",
+      "?, GLUTEN FREE FLOUR"
     ],
     [
       "SYSCO, NAN",
       "SYSCO, PAR BOILED RICE"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 4125",
       "STAN SETAS, POTATOES, IDAHO"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 4080",
       "STAN SETAS, POTATOES, FINGERLING"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 4025",
       "STAN SETAS, POTATOES, RED"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 4200",
       "STAN SETAS, POTATOES, YUKON GOLD"
     ],
     [
-      "SYSCO/PORTICO, 7154725.0",
-      "SYSCO/PORTICO, PERCH FILLET YELLOW SPLIT MEDIUM"
+      "NAN, NAN",
+      "NAN, MK BLUE RACK TOTAL:"
+    ]
+  ],
+  "MK 4 DOOR FREEZER": [
+    [
+      "SYSCO, 7154725",
+      "SYSCO, PERCH"
     ],
     [
       "SYSCO, NAN",
@@ -397,8 +409,8 @@
       "SUPERIOR, WHITE FISH"
     ],
     [
-      "SYSCO/MAPLE LEAF, 7174697.0",
-      "SYSCO/MAPLE LEAF, DUCK BREAST"
+      "SYSCO, 7174697",
+      "SYSCO, DUCK BREAST"
     ],
     [
       "SYSCO, NAN",
@@ -409,8 +421,8 @@
       "SYSCO, 3 OZ BURGER"
     ],
     [
-      "SYSCO/MORNINGSTAR FARMS, 6196026.0",
-      "SYSCO/MORNINGSTAR FARMS, PATTY VEGETABLE BLACK BEAN SPICY"
+      "SYSCO, 6196026",
+      "SYSCO, BLACK BEAN VEGGIE BURGER"
     ],
     [
       "SUPERIOR, NAN",
@@ -429,7 +441,7 @@
       "NORTHERN LAKES, LUMP FISH CAVIAR"
     ],
     [
-      "SYSCO, 3012483.0",
+      "SYSCO, 3012483",
       "SYSCO, TOBIKO ORANGE CAVIAR 1#"
     ],
     [
@@ -438,7 +450,7 @@
     ],
     [
       "NORTHERN LAKES, NAN",
-      "NORTHERN LAKES, COCONUT CHICKEN"
+      "NORTHERN LAKES, COCONUT CHICKEN "
     ],
     [
       "SYSCO, NAN",
@@ -485,6 +497,12 @@
       "SYSCO, FLAT BREAD"
     ],
     [
+      "NAN, NAN",
+      "NAN, MK 4 DOOR FREEZER TOTAL:"
+    ]
+  ],
+  "MK HOT LINE": [
+    [
       "SYSCO, NAN",
       "SYSCO, SWISS"
     ],
@@ -517,12 +535,18 @@
       "MSU, PORK CHOP"
     ],
     [
+      "NAN, NAN",
+      "NAN, MK HOT LINE TOTAL:"
+    ]
+  ],
+  "MK HOT LINE FREEZER": [
+    [
       "SYSCO, NAN",
       "SYSCO, TANGLERS"
     ],
     [
-      "SYSCO/IMPERIAL, 4390807.0",
-      "SYSCO/IMPERIAL, POTATO FRY SWEET WAFFLE BATTERED"
+      "SYSCO, 4390807",
+      "SYSCO, SWEET POTATO WAFFLE FRIES"
     ],
     [
       "SYSCO, NAN",
@@ -533,7 +557,7 @@
       "SYSCO, FRENCH TOAST STICK"
     ],
     [
-      "SYSCO, 4227104.0",
+      "SYSCO, 4227104",
       "SYSCO, DRAKES CRISPY FRY MIX"
     ],
     [
@@ -544,6 +568,12 @@
       "SYSCO, NAN",
       "SYSCO, PEPPERONI"
     ],
+    [
+      "NAN, NAN",
+      "NAN, MK HOT LINE FREEZER TOTAL:"
+    ]
+  ],
+  "MK BACK SHELF": [
     [
       "SYSCO, NAN",
       "SYSCO, SAUTE OIL"
@@ -577,31 +607,43 @@
       "SYSCO, QUICK OATS"
     ],
     [
-      "SYSCO/HOUSE OF FLAVORS, 2589018.0",
-      "SYSCO/HOUSE OF FLAVORS, ICE CREAM MOOSE TRACKS"
+      "NAN, NAN",
+      "NAN, MK BACK SHELF TOTAL:"
+    ]
+  ],
+  "UPSTAIRS ICE CREAM FREEZER": [
+    [
+      "SYSCO, 2589018",
+      "SYSCO, MOOSE TRACK"
     ],
     [
-      "SYSCO/ASHBY'S, 2179905.0",
-      "SYSCO/ASHBY'S, ICE CREAM CHOCOLATE"
+      "SYSCO, 2179905",
+      "SYSCO, CHOCOLATE"
     ],
     [
-      "SYSCO/ASHBY'S, 2471789.0",
-      "SYSCO/ASHBY'S, ICE CREAM VANILLA PREMIUM"
+      "SYSCO, 2471789",
+      "SYSCO, VANILLA"
     ],
     [
-      "SYSCO/HOUSE OF FLAVORS, 7015506.0",
-      "SYSCO/HOUSE OF FLAVORS, ICE CREAM SORBETO RASPBERRY"
+      "SYSCO, 7015506",
+      "SYSCO, RASPBERRY SHERBET"
     ],
     [
-      "SYSCO/PACKER, 2099315.0",
-      "SYSCO/PACKER, ICE CREAM BLUE MOON"
+      "SYSCO, 2099315",
+      "SYSCO, BLUE MOON"
     ],
     [
-      "STAN SETAS, NAN",
+      "NAN, NAN",
+      "NAN, UPSTAIRS ICE CREAM FREEZER TOTAL:"
+    ]
+  ],
+  "GARDE MANGER COOLER": [
+    [
+      "STAN SETAS, 2905",
       "STAN SETAS, ENGLISH CUCUMBERS"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 2740",
       "STAN SETAS, CAULIFLOWER"
     ],
     [
@@ -613,11 +655,11 @@
       "SYSCO, RAINBOW CARROT SHREDDED"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 2695",
       "STAN SETAS, CARROTS, BABY PEELED W/ TOPS"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 2670",
       "STAN SETAS, CARROTS, LOOSE"
     ],
     [
@@ -629,16 +671,16 @@
       "STAN SETAS, PARSNIPS"
     ],
     [
-      "SYSCO, 9011453.0",
+      "SYSCO, 9011453",
       "SYSCO, RADISH WATERMELON"
     ],
     [
-      "SYSCO, 7454895.0",
+      "SYSCO, 7454895",
       "SYSCO, CORNICHONS"
     ],
     [
-      "SYSCO/CLASSIC, 9869108.0",
-      "SYSCO/CLASSIC, HORSERADISH WHITE PREPARED"
+      "SYSCO, 9869108",
+      "SYSCO, HORSERADISH"
     ],
     [
       "NAN, NAN",
@@ -665,7 +707,7 @@
       "SYSCO, GOAT CHEESE"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 4965",
       "STAN SETAS, GREEN CABBAGE"
     ],
     [
@@ -709,63 +751,63 @@
       "SYSCO, SLICED JALAPENO"
     ],
     [
-      "SYSCO, 7454895.0",
-      "SYSCO, CORNICHONS"
+      "SYSCO, 7454895",
+      "SYSCO, SWEET GHERKINS"
     ],
     [
-      "SYSCO, 8425001.0",
+      "SYSCO, 8425001",
       "SYSCO, PEPPER BANANA PEPPER RINGS"
     ],
     [
-      "SYSCO/IMPERIAL, 5429766.0",
-      "SYSCO/IMPERIAL, OLIVE KALAMATA PITTED PLASTIC KEG"
+      "SYSCO, 5429766",
+      "SYSCO, KALAMATA OLIVES"
     ],
     [
-      "SYSCO/IMPERIAL, 7097100.0",
-      "SYSCO/IMPERIAL, OLIVES GREEN QUEEN PITTED 100/120 CT"
+      "SYSCO, 7097100",
+      "SYSCO, GREEN QUEEN OLIVES"
     ],
     [
       "SYSCO, NAN",
       "SYSCO, BLACK OLIVES"
     ],
     [
-      "SYSCO/BLOCK & BARREL, 5287194.0",
-      "SYSCO/BLOCK & BARREL, PICKLE WHOLE KOSHER 60/65 CT"
+      "SYSCO, 5287194",
+      "SYSCO, WHOLE KOSHER PICKLE"
     ],
     [
-      "VANEERDEN, NAN",
+      "VANEERDEN, 55417",
       "VANEERDEN, PICKLE CHIP SWEET HOTTIE"
     ],
     [
-      "SYSCO/COOL CRISP, 353835.0",
-      "SYSCO/COOL CRISP, PICKLE SLICED SWEET HOTTIES"
+      "SYSCO, 353835",
+      "SYSCO, SWEET HOTTIES SLICED PICKLE"
     ],
     [
       "STAN SETAS, NAN",
       "STAN SETAS, CELERY"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 4545",
       "STAN SETAS, ZUCCHINI"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 4626",
       "STAN SETAS, ACORN SQUASH"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 4625",
       "STAN SETAS, BUTTERNUT SQUASH"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 4520",
       "STAN SETAS, YELLOW SQUASH"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 5970",
       "STAN SETAS, BRUSSEL SPROUTS"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 2530",
       "STAN SETAS, BROCCOLI"
     ],
     [
@@ -773,8 +815,8 @@
       "SYSCO, DRESSING - SESAME"
     ],
     [
-      "SYSCO/KEN'S, 8476732.0",
-      "SYSCO/KEN'S, DRESSING VINAIGRETTE APPLE CIDER"
+      "SYSCO, 8476732",
+      "SYSCO, DRESSING - APPLE CIDER"
     ],
     [
       "SYSCO, NAN",
@@ -785,20 +827,20 @@
       "SYSCO, SWEET SOY"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 1965",
       "STAN SETAS, PEARS"
     ],
     [
-      "SYSCO/IMPERIAL, 4945721.0",
-      "SYSCO/IMPERIAL, DRESSING ITALIAN GREGGORIO HOUSE"
+      "SYSCO, 4945721",
+      "SYSCO, ITALIAN GREGGORIO HOUSE"
     ],
     [
       "SYSCO, NAN",
       "SYSCO, FETA YASOU VINAIGRETTE"
     ],
     [
-      "SYSCO/HIDDEN VALLEY RANCH, 6828448.0",
-      "SYSCO/HIDDEN VALLEY RANCH, DRESSING MIX RANCH BUTTERMILK NO MSG"
+      "SYSCO, 6828448",
+      "SYSCO, HIDDEN VALLEY RANCH PACKET"
     ],
     [
       "SYSCO, NAN",
@@ -817,28 +859,28 @@
       "SYSCO, ITALIAN DRESSING"
     ],
     [
-      "SYSCO/ARREZZIO, 4099418.0",
-      "SYSCO/ARREZZIO, CHEESE MOZZARELLA FRESH LOG SLICED CRYOVAC"
+      "SYSCO, 4099418",
+      "SYSCO, SLICED MOZZARELLA CHEESE"
     ],
     [
-      "SYSCO/ARREZZIO, 2491751.0",
-      "SYSCO/ARREZZIO, CHEESE MOZZARELLA CILIEGEN FRESH"
+      "SYSCO, 2491751",
+      "SYSCO, MOZZARELLA CILLEGENE FRESH"
     ],
     [
       "SYSCO, NAN",
       "SYSCO, BOURSIN"
     ],
     [
-      "SYSCO/WHOLESOME FARMS, 5440201.0",
-      "SYSCO/WHOLESOME FARMS, CHEESE COTTAGE SMALL CURD 4%"
+      "SYSCO, 5440201",
+      "SYSCO, COTTAGE CHEESE"
     ],
     [
-      "SYSCO/GRECIAN DELIGHT, 779593.0",
-      "SYSCO/GRECIAN DELIGHT, DIP HUMMUS FRESH TRADITIONAL"
+      "SYSCO, 779593",
+      "SYSCO, HUMMUS"
     ],
     [
-      "SYSCO/ARREZZIO, 7268538.0",
-      "SYSCO/ARREZZIO, CHEESE PARMESAN GRATED"
+      "SYSCO, 7268538",
+      "SYSCO, PARMESAN GRATED"
     ],
     [
       "NAN, NAN",
@@ -849,8 +891,8 @@
       "NAN, WHITE CHEDDAR"
     ],
     [
-      "SYSCO/ARREZZIO, 873301.0",
-      "SYSCO/ARREZZIO, CHEESE PARMESAN SHREDDED FANCY"
+      "SYSCO, 873301",
+      "SYSCO, SHREDDED PARMESAN"
     ],
     [
       "SYSCO, NAN",
@@ -893,8 +935,8 @@
       "SYSCO, WHITE CHEDDAR (AGAIN)"
     ],
     [
-      "SYSCO/BLOCK & BARREL, 248807.0",
-      "SYSCO/BLOCK & BARREL, CHEESE CUBED CHEDDAR SWISS PEPPER JACK"
+      "SYSCO, 248807",
+      "SYSCO, CUBED CHEDDAR,SWISS, PEPPERJACK"
     ],
     [
       "SYSCO, NAN",
@@ -917,8 +959,8 @@
       "SYSCO, CREAM CHEESE"
     ],
     [
-      "SYSCO/PACKER, 8009714.0",
-      "SYSCO/PACKER, CHEESE CHEDDAR SMOKED 2.25 LB"
+      "SYSCO, 8009714",
+      "SYSCO, SMOKED CHEDDAR"
     ],
     [
       "SYSCO, NAN",
@@ -933,8 +975,8 @@
       "SYSCO, SHULARS CHEESE SPREAD"
     ],
     [
-      "SYSCO/LIFE & PROVENCE, 2520415.0",
-      "SYSCO/LIFE & PROVENCE, CHEESE SPREAD GARLIC & HERB EUROCREME"
+      "SYSCO, 2520415",
+      "SYSCO, GARIL & HERB CHEESE SPREAD"
     ],
     [
       "NORTHERN LAKES, NAN",
@@ -945,7 +987,7 @@
       "GORDONS, 5TH TOMATO"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 2670",
       "STAN SETAS, JUMBO CARROT"
     ],
     [
@@ -953,7 +995,7 @@
       "STAN SETAS, BABY ARTISAN LETTUCE CLAMSHELL"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 5679",
       "STAN SETAS, HYDRO BIBB LETTUCE"
     ],
     [
@@ -961,11 +1003,11 @@
       "STAN SETAS, BABY ARUGULA"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 4360",
       "STAN SETAS, SPINACH, BABY"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 5616",
       "STAN SETAS, ORGANIC SPRING MIX"
     ],
     [
@@ -973,11 +1015,11 @@
       "STAN SETAS, ROAMAINE HEARTS"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 4670",
       "STAN SETAS, TOMATOES, GRAPE"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 4787",
       "STAN SETAS, HEIRLOOM GRAPE TOMATO"
     ],
     [
@@ -985,19 +1027,19 @@
       "SYSCO, PORTOBELLO"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 3855",
       "STAN SETAS, GREEN PEPPERS"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 3870",
       "STAN SETAS, PEPPERS, RED"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 3875",
       "STAN SETAS, PEPPERS, YELLOW"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 4595",
       "STAN SETAS, TOMATOES, 5X6"
     ],
     [
@@ -1005,7 +1047,7 @@
       "SYSCO, GREEN ONIONS"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 4330",
       "STAN SETAS, GREEN ONIONS"
     ],
     [
@@ -1013,11 +1055,11 @@
       "SYSCO, WATERMELON RADISH"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 3890",
       "STAN SETAS, PEPPERS, JALAPENO"
     ],
     [
-      "SYSCO, 2463164.0",
+      "SYSCO, 2463164",
       "SYSCO, GRAPES"
     ],
     [
@@ -1025,7 +1067,7 @@
       "STAN SETAS, THYME"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 5135",
       "STAN SETAS, OREGANO"
     ],
     [
@@ -1033,15 +1075,15 @@
       "STAN SETAS, SPEARMINT"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 5155",
       "STAN SETAS, ROSEMARY"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 5235",
       "STAN SETAS, THYME"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 3745",
       "STAN SETAS, PARSLEY, ITALIAN"
     ],
     [
@@ -1049,7 +1091,7 @@
       "STAN SETAS, FENNEL BULB"
     ],
     [
-      "SYSCO, 2005122.0",
+      "SYSCO, 2005122",
       "SYSCO, DILL"
     ],
     [
@@ -1057,15 +1099,15 @@
       "STAN SETAS, BABY DILL"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 5035",
       "STAN SETAS, BASIL"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 5081",
       "STAN SETAS, CILANTRO, CALIFORNIA"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 5080",
       "STAN SETAS, CILANTRO"
     ],
     [
@@ -1073,15 +1115,15 @@
       "STAN SETAS, TARRAGON"
     ],
     [
-      "SYSCO, 2004927.0",
+      "SYSCO, 2004927",
       "SYSCO, SAGE"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 2850",
       "STAN SETAS, CORN, COB BICOLOR"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 5060",
       "STAN SETAS, CHIVES"
     ],
     [
@@ -1089,7 +1131,7 @@
       "STAN SETAS, BLUEBERRIES"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 1155",
       "STAN SETAS, MANGOS"
     ],
     [
@@ -1097,35 +1139,35 @@
       "STAN SETAS, RED SEEDLESS GRAPES"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 655",
       "STAN SETAS, RASPBERRIES, DRISCOLL"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 640",
       "STAN SETAS, BLACKBERRIES, DRISCOLL"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 690",
       "STAN SETAS, STRAWBERRIES, DRISCOLL"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 1205",
       "STAN SETAS, CANTALOUPES"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 1280",
       "STAN SETAS, HONEYDEW MELONS"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 2231",
       "STAN SETAS, PINEAPPLES"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 1090",
       "STAN SETAS, LEMONS"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 4787",
       "STAN SETAS, HEIRLOOM GRAPE TOMATOES"
     ],
     [
@@ -1141,15 +1183,15 @@
       "STAN SETAS, APPLES, FUJI"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 1665",
       "STAN SETAS, ORANGES"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 1115",
       "STAN SETAS, LIMES"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 586",
       "STAN SETAS, BANANAS"
     ],
     [
@@ -1169,27 +1211,27 @@
       "NAN, WATERMELON"
     ],
     [
-      "SYSCO/CLASSIC, 2527836.0",
-      "SYSCO/CLASSIC, GRAPEFRUIT SECTION LT SYRUP"
+      "SYSCO, 2527836",
+      "SYSCO, GRAPEFRUIT SECTIONS"
     ],
     [
       "STAN SETAS, NAN",
       "STAN SETAS, GINGER"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 3450",
       "STAN SETAS, MUSHROOMS, CRIMINI"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 3415",
       "STAN SETAS, MUSHROOMS, MEDIUM"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 3465",
       "STAN SETAS, MUSHROOMS, OYSTER"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 3485",
       "STAN SETAS, MUSHROOMS, PORTABELLA"
     ],
     [
@@ -1201,27 +1243,27 @@
       "STAN SETAS, HERICOT, VERT FRENCH BEANS"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 3175",
       "STAN SETAS, LEEKS"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 2490",
       "STAN SETAS, BEANS, GREEN TRIMED 2/5#"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 3805",
       "STAN SETAS, PEAS, SUGAR SNAP"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 3335",
       "STAN SETAS, ROMAINE, PREMIUM"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 3350",
       "STAN SETAS, ROMAINE HEARTS"
     ],
     [
-      "STAN SETAS, NAN",
+      "STAN SETAS, 4565",
       "STAN SETAS, TOMATILLOS"
     ],
     [
@@ -1229,71 +1271,83 @@
       "NAN, MISC."
     ],
     [
-      "SYSCO/CLASSIC, 4888574.0",
-      "SYSCO/CLASSIC, WALNUT HALVES & PIECES"
+      "NAN, NAN",
+      "NAN, GARDE MANGER COOLER TOTAL:"
+    ]
+  ],
+  "GARDE MANGER STATION": [
+    [
+      "SYSCO, 4888574",
+      "SYSCO, WALNUT HALVES & PIECES"
     ],
     [
       "SYSCO, NAN",
       "SYSCO, SLICED ALMONDS"
     ],
     [
-      "SYSCO, 7102403.0",
+      "SYSCO, 7102403",
       "SYSCO, DRIED CRANBERRIES"
     ],
     [
-      "SYSCO, 6742647.0",
+      "SYSCO, 6742647",
       "SYSCO, DRIED APRICOT"
     ],
     [
-      "SYSCO, 5889720.0",
+      "SYSCO, 5889720",
       "SYSCO, SUNDRIED TOMATOES"
     ],
     [
-      "SYSCO, 1967421.0",
+      "SYSCO, 1967421",
       "SYSCO, UNSWEETENED PINEAPPLE RINGS"
     ],
     [
-      "SYSCO, 344301.0",
+      "SYSCO, 344301",
       "SYSCO, POMEGRANATE ARILS"
     ],
     [
-      "SYSCO/PEPPERIDGE FARM, 4200036.0",
-      "SYSCO/PEPPERIDGE FARM, CRACKER ASSORTED"
+      "SYSCO, 4200036",
+      "SYSCO, ASSORTED CRACKERS"
     ],
     [
-      "SYSCO, 4246336.0",
+      "SYSCO, 4246336",
       "SYSCO, CARRS CRACKERS"
     ],
     [
-      "SYSCO, 1691577.0",
+      "SYSCO, 1691577",
       "SYSCO, SESAME RICE THINS"
     ],
     [
-      "SYSCO/HIDDEN VALLEY RANCH, 6828448.0",
-      "SYSCO/HIDDEN VALLEY RANCH, DRESSING MIX RANCH BUTTERMILK NO MSG"
+      "SYSCO, 6828448",
+      "SYSCO, HIDDEN VALLEY RANCH PACKET"
     ],
     [
-      "SYSCO, 6365967.0",
+      "SYSCO, 6365967",
       "SYSCO, MIXED NUT CASHEW"
     ],
     [
-      "SYSCO, 1698461.0",
+      "SYSCO, 1698461",
       "SYSCO, PUMPKIN SEEDS"
     ],
     [
-      "SYSCO, 7762329.0",
+      "SYSCO, 7762329",
       "SYSCO, CROUTONS"
     ],
     [
-      "SYSCO/IMPERIAL, 7102205.0",
-      "SYSCO/IMPERIAL, CHERRY DRIED"
+      "SYSCO, 7102205",
+      "SYSCO, DRIED CHERRIES"
     ],
     [
-      "SYSCO/ACE BAKERY LTD, 7267449.0",
-      "SYSCO/ACE BAKERY LTD, BUN HMBRGR CLS SLIDER 3 INCH"
+      "NAN, NAN",
+      "NAN, GARDE MANGER STATION TOTAL:"
+    ]
+  ],
+  "BASEMENT FREEZER": [
+    [
+      "SYSCO, 7267449",
+      "SYSCO, CORN DUSTED BUN"
     ],
     [
-      "SYSCO, 7276171.0",
+      "SYSCO, 7276171",
       "SYSCO, FRENCH DIP DEMI BAGUETTE"
     ],
     [
@@ -1317,8 +1371,8 @@
       "SYSCO, SAUSAGE LINKS"
     ],
     [
-      "SYSCO, 5257690.0",
-      "SYSCO, 6OZ SIRLOIN"
+      "SYSCO , 5257690",
+      "SYSCO , 6OZ SIRLOIN"
     ],
     [
       "SYSCO, NAN",
@@ -1361,12 +1415,12 @@
       "NAN, 3OZ BURGER"
     ],
     [
-      "SYSCO/BAKER'S SOURCE, 2452211.0",
-      "SYSCO/BAKER'S SOURCE, BREAD TEXAS TOAST WHITE SLICED"
+      "SYSCO, 2452211",
+      "SYSCO, TEXAS TOAST"
     ],
     [
-      "SYSCO/SIMPLOT ROASTWORKS, 4273470.0",
-      "SYSCO/SIMPLOT ROASTWORKS, BEANS BLACK WITH CORN FLAME ROASTED FIESTA"
+      "SYSCO, 4273470",
+      "SYSCO, FIESTA CORN"
     ],
     [
       "NAN, NAN",
@@ -1385,11 +1439,11 @@
       "SYSCO, HOT DOGS"
     ],
     [
-      "SYSCO/IMPERIAL, 3755709.0",
-      "SYSCO/IMPERIAL, SAUSAGE PORK PATTY WHOLE HOG RAW"
+      "SYSCO, 3755709",
+      "SYSCO, SAUSAGE PATTY"
     ],
     [
-      "SYSCO, 5393236.0",
+      "SYSCO, 5393236",
       "SYSCO, TURKEY SAUSAGE LINK"
     ],
     [
@@ -1397,7 +1451,7 @@
       "SYSCO, BLACK BEAN VEGGIE BURGER"
     ],
     [
-      "SYSCO, 6820880.0",
+      "SYSCO, 6820880",
       "SYSCO, FLAT BREAD"
     ],
     [
@@ -1405,8 +1459,8 @@
       "SYSCO, CHICKEN TORTELLINI"
     ],
     [
-      "SYSCO/STONEFIRE, 5960921.0",
-      "SYSCO/STONEFIRE, BREAD NAAN TANDOORI TEARDROP"
+      "SYSCO, 5960921",
+      "SYSCO, NAAN BREAD"
     ],
     [
       "NAN, NAN",
@@ -1421,23 +1475,23 @@
       "SYSCO, TEMPURA CHICKEN"
     ],
     [
-      "SYSCO/STOUFFER, 1013986.0",
-      "SYSCO/STOUFFER, ENTREE LASAGNA MEAT"
+      "SYSCO, 1013986",
+      "SYSCO, MEAT LASAGNA"
     ],
     [
-      "SYSCO/ARREZZIO, 7188875.0",
-      "SYSCO/ARREZZIO, PASTA TORTELLONI 4 CHEESE GLUTEN FREE"
+      "SYSCO, 7188875",
+      "SYSCO, GLUTEN FREE TORTELLI"
     ],
     [
       "SYSCO, NAN",
       "SYSCO, ROASTED TOMATO"
     ],
     [
-      "SYSCO/ARREZZIO, 5224393.0",
-      "SYSCO/ARREZZIO, TOMATO RSTD YEL WEDGES"
+      "SYSCO, 5224393",
+      "SYSCO, YELLOW ROASTED TOMATO WEDGES"
     ],
     [
-      "SYSCO, 7028548.0",
+      "SYSCO, 7028548",
       "SYSCO, ROASTED SWEET VEG MEDLEY"
     ],
     [
@@ -1453,12 +1507,12 @@
       "MSU, MSU PORK BUTT"
     ],
     [
-      "SYSCO/SIGNATURE FOODS, 5860097.0",
-      "SYSCO/SIGNATURE FOODS, BREAD BAGUETTE CRUSTY PARBAKED"
+      "SYSCO, 5860097",
+      "SYSCO, BAGUETTE"
     ],
     [
-      "SYSCO/MOORES, 9474859.0",
-      "SYSCO/MOORES, ONION RING TANGLERS FLOUR BREADED"
+      "SYSCO, 9474859",
+      "SYSCO, ONION TANGLERS"
     ],
     [
       "SYSCO, NAN",
@@ -1473,35 +1527,35 @@
       "NORTHERN LAKES, BABY BACK RIBS"
     ],
     [
-      "SYSCO/IMPERIAL, 4390807.0",
-      "SYSCO/IMPERIAL, POTATO FRY SWEET WAFFLE BATTERED"
+      "SYSCO, 4390807",
+      "SYSCO, SWEET POTATO FRIES"
     ],
     [
       "SYSCO, NAN",
       "SYSCO, FRENCH FRIES"
     ],
     [
-      "SYSCO/LAMB WESTON, 1516350.0",
-      "SYSCO/LAMB WESTON, POTATO FRY CRISSCUT ORIGINAL BATTER"
+      "SYSCO, 1516350",
+      "SYSCO, WAFFLE FRIES"
     ],
     [
       "SYSCO, NAN",
       "SYSCO, ACE BUNS"
     ],
     [
-      "SYSCO, 1024348.0",
+      "SYSCO, 1024348",
       "SYSCO, PEACHES"
     ],
     [
-      "SYSCO, 2527653.0",
+      "SYSCO, 2527653",
       "SYSCO, CRANBERRIES"
     ],
     [
-      "SYSCO/BAKER'S SOURCE, 7198010.0",
-      "SYSCO/BAKER'S SOURCE, DOUGH PASTRY PUFF SQUARE 5X5"
+      "SYSCO, 7198010",
+      "SYSCO, PUFF PASTRY SQUARE"
     ],
     [
-      "SYSCO, 7285455.0",
+      "SYSCO, 7285455",
       "SYSCO, MANGOS"
     ],
     [
@@ -1529,20 +1583,20 @@
       "NAN, BAGELS SAUSAGE"
     ],
     [
-      "SYSCO, 1719517.0",
+      "SYSCO, 1719517",
       "SYSCO, PEARL ONIONS"
     ],
     [
-      "SYSCO, 8538852.0",
+      "SYSCO, 8538852",
       "SYSCO, KIDS MAC CHEESE"
     ],
     [
-      "SYSCO/BUCKHEAD PRIDE, 6322648.0",
-      "SYSCO/BUCKHEAD PRIDE, BEEF BONE FEMUR 3-4 INCHE FROZEN"
+      "SYSCO, 6322648",
+      "SYSCO, BEEF BONES"
     ],
     [
-      "SYSCO/BUTCHERS BLOCK RESERVE, 7637499.0",
-      "SYSCO/BUTCHERS BLOCK RESERVE, VEAL BONE HIND SHANK APPROXIMATELY 4\""
+      "SYSCO, 7637499",
+      "SYSCO, VEAL BONES"
     ],
     [
       "SYSCO, NAN",
@@ -1589,8 +1643,8 @@
       "SYSCO?, CRAWFISH TAIL MEAT"
     ],
     [
-      "SYSCO/TAMPA MAID, 5304706.0",
-      "SYSCO/TAMPA MAID, CALAMARI RINGS & TENTACLES DIPPED & DUSTED"
+      "SYSCO, 5304706",
+      "SYSCO, CALAMARI"
     ],
     [
       "SYSCO, NAN",
@@ -1613,7 +1667,7 @@
       "SYSCO, COD"
     ],
     [
-      "SYSCO, 2820064.0",
+      "SYSCO, 2820064",
       "SYSCO, CHOPPED CLAMS"
     ],
     [
@@ -1633,7 +1687,7 @@
       "SYSCO, 8- 12 SHRIMP"
     ],
     [
-      "NORTHERN LAKES, NAN",
+      "NORTHERN LAKES, 167K0C51",
       "NORTHERN LAKES, SCALLOP BAY DRY 60-80 IQF"
     ],
     [
@@ -1677,23 +1731,23 @@
       "SYSCO, SMOKED SALMON"
     ],
     [
-      "SYSCO/CLASSIC, 4129340.0",
-      "SYSCO/CLASSIC, DIP SPINACH ARTICHOKE"
+      "SYSCO, 4129340",
+      "SYSCO, SPIN ARTICHOKE DIP"
     ],
     [
-      "SYSCO/UDI'S HEALTHY FOODS, 758401.0",
-      "SYSCO/UDI'S HEALTHY FOODS, BUN HAMBURGER GLUTEN FREE INDIVIDUALLY WRAPPED"
+      "SYSCO, 0758401",
+      "SYSCO, UDI'S GLUTEN FREE BUN"
     ],
     [
       "NAN, NAN",
       "NAN, GLUTEN FREE HOT DOG BUN"
     ],
     [
-      "SYSCO, 7174275.0",
+      "SYSCO, 7174275",
       "SYSCO, BREADED OKRA"
     ],
     [
-      "SYSCO, 373570.0",
+      "SYSCO, 373570",
       "SYSCO, SHORT RIB BONE-IN"
     ],
     [
@@ -1701,47 +1755,53 @@
       "VANEERDEN, GLUTEN FREE ROLL"
     ],
     [
-      "SYSCO/HIGHLINER, 2942728.0",
-      "SYSCO/HIGHLINER, COD BATTERED BEER GUINNESS"
+      "SYSCO, 2942728",
+      "SYSCO, GUINESS COD"
     ],
     [
-      "SYSCO/IMPERIAL, 3011479.0",
-      "SYSCO/IMPERIAL, LOBSTER BODIES FROZEN"
+      "SYSCO, 3011479",
+      "SYSCO, LOBSTER BODIES"
     ],
     [
-      "SYSCO/LITTLE TOWN JERKY, 7140938.0",
-      "SYSCO/LITTLE TOWN JERKY, BEEF CHUCK SHORT RIB BONELESS COOKED"
+      "SYSCO, 7140938",
+      "SYSCO, BEEF CHUCK SHORT RIB BONELESS"
     ],
     [
-      "SYSCO, 1169960.0",
+      "NAN, NAN",
+      "NAN, BASEMENT FREEZER TOTAL:"
+    ]
+  ],
+  "BASEMENT WALK-IN": [
+    [
+      "SYSCO, 1169960",
       "SYSCO, WHIPPED TOPPING"
     ],
     [
-      "SYSCO/YOPLAIT, 5076587.0",
-      "SYSCO/YOPLAIT, YOGURT RASPBERRY & PEACH ORIGINAL"
+      "SYSCO, 5076587",
+      "SYSCO, RASPBERRY PEACH YOGURT"
     ],
     [
-      "SYSCO, 4944450.0",
+      "SYSCO, 4944450",
       "SYSCO, SYSCO CHICKEN BASE"
     ],
     [
-      "SYSCO, 4944203.0",
+      "SYSCO, 4944203",
       "SYSCO, BEEF BASE"
     ],
     [
-      "SCHREIBER, NAN",
+      "SCHREIBER, 1302",
       "SCHREIBER, BEEF BASE PREMIUM"
     ],
     [
-      "SCHREIBER, NAN",
+      "SCHREIBER, 1088",
       "SCHREIBER, LOBSTER BASE-L"
     ],
     [
-      "SYSCO, 2389153.0",
+      "SYSCO, 2389153",
       "SYSCO, MASCARPONE CHEESE"
     ],
     [
-      "SYSCO, 4944708.0",
+      "SYSCO, 4944708",
       "SYSCO, TURKEY BASE"
     ],
     [
@@ -1749,19 +1809,19 @@
       "SCHREIBER, SCHREIBER TURKEY BASE"
     ],
     [
-      "SYSCO, 4941258.0",
+      "SYSCO, 4941258",
       "SYSCO, MINORS MUSHROOM BASE"
     ],
     [
-      "SYSCO, 6742647.0",
-      "SYSCO, DRIED APRICOT"
+      "SYSCO, 6742647",
+      "SYSCO, APRICOTS"
     ],
     [
-      "SYSCO, 7249722.0",
+      "SYSCO, 7249722",
       "SYSCO, CHILI LIME TORTILLA"
     ],
     [
-      "SYSCO, 9182890.0",
+      "SYSCO, 9182890",
       "SYSCO, SPINACH TORTILLA"
     ],
     [
@@ -1769,7 +1829,7 @@
       "NAN, WHEAT TORTILLA"
     ],
     [
-      "SYSCO, 2582957.0",
+      "SYSCO, 2582957",
       "SYSCO, WHITE FLOUR TORTILLA"
     ],
     [
@@ -1781,84 +1841,84 @@
       "GFS, PUDDING CUPS"
     ],
     [
-      "SYSCO/IMPERIAL, 7097100.0",
-      "SYSCO/IMPERIAL, OLIVES GREEN QUEEN PITTED 100/120 CT"
+      "SYSCO, 7097100",
+      "SYSCO, GREEN OLIVES"
     ],
     [
-      "SYSCO/MICHIGAN GROWN PRODUCE, 6671925.0",
-      "SYSCO/MICHIGAN GROWN PRODUCE, CIDER APPLE FRESH MICHIGAN"
+      "SYSCO, 6671925",
+      "SYSCO, APPLE CIDER JUICE"
     ],
     [
-      "SYSCO, 6324166.0",
+      "SYSCO, 6324166",
       "SYSCO, SUSHI GINGER PICKLED"
     ],
     [
-      "SYSCO/HOUSE FOODS, 5188131.0",
-      "SYSCO/HOUSE FOODS, TOFU EXTRA FIRM CHINESE"
+      "SYSCO, 5188131",
+      "SYSCO, TOFU"
     ],
     [
-      "SYSCO/LAND O LAKES, 5055110.0",
-      "SYSCO/LAND O LAKES, BUTTER BLEND CLARIFIED WITH VEGETABLE OIL"
+      "SYSCO, 5055110",
+      "SYSCO, BUTTER BLEND"
     ],
     [
-      "SYSCO/BUTTERBALL FARMS, 91449.0",
-      "SYSCO/BUTTERBALL FARMS, BUTTER BALLS .25 OZ SALTED IN BAG"
+      "SYSCO, 0091449",
+      "SYSCO, BUTTER BALLS"
     ],
     [
-      "SYSCO/CLASSIC, 9869108.0",
-      "SYSCO/CLASSIC, HORSERADISH WHITE PREPARED"
+      "SYSCO, 9869108",
+      "SYSCO, HORSE RADISH"
     ],
     [
-      "SYSCO/ARREZZIO, 5141502.0",
-      "SYSCO/ARREZZIO, SAUCE PESTO BASIL NO NUTS"
+      "SYSCO, 5141502",
+      "SYSCO, NUT FREE PESTO"
     ],
     [
-      "SYSCO/WHOLESOME FARMS, 5438874.0",
-      "SYSCO/WHOLESOME FARMS, CREAM SOUR CULTURED GRADE A"
+      "SYSCO, 5438874",
+      "SYSCO, SOUR CREAM"
     ],
     [
-      "SYSCO/WHOLESOME FARMS, 5031836.0",
-      "SYSCO/WHOLESOME FARMS, CREAM SOUR PURE CUP GRADE A"
+      "SYSCO, 5031836",
+      "SYSCO, SOUR CREAM CUPS"
     ],
     [
-      "SYSCO/WHOLESOME FARMS, 5020896.0",
-      "SYSCO/WHOLESOME FARMS, CHEESE COTTAGE SMALL CURD 4%"
+      "SYSCO, 5020896",
+      "SYSCO, COTTAGE CHEESE"
     ],
     [
-      "SYSCO/WHOLESOME FARMS, 5109107.0",
-      "SYSCO/WHOLESOME FARMS, BUTTERMILK 1% CULTURED"
+      "SYSCO, 5109107",
+      "SYSCO, BUTTERMILK"
     ],
     [
-      "SYSCO/CASA SOLANA, 2822338.0",
-      "SYSCO/CASA SOLANA, CHEESE CHEDDAR MILD FANCY SHREDDED"
+      "SYSCO, 2822338",
+      "SYSCO, SHRREDDED CHEDDAR"
     ],
     [
-      "SYSCO/BLOCK & BARREL, 2393049.0",
-      "SYSCO/BLOCK & BARREL, CHEESE GOUDA SMOKED"
+      "SYSCO, 2393049",
+      "SYSCO, SMOKED GOUDA"
     ],
     [
-      "SYSCO/WHOLESOME FARMS, 4676280.0",
-      "SYSCO/WHOLESOME FARMS, MILK 2%"
+      "SYSCO, 4676280",
+      "SYSCO, 2% MILK"
     ],
     [
       "NAN, NAN",
       "NAN, ORANGE JUICE"
     ],
     [
-      "SYSCO/NATALIE'S, 7302905.0",
-      "SYSCO/NATALIE'S, JUICE ORANGE"
+      "SYSCO, 7302905",
+      "SYSCO, NATALIES ORANGE JUICE"
     ],
     [
-      "SYSCO/WHOLESOME FARMS, 6935464.0",
-      "SYSCO/WHOLESOME FARMS, CREAM HEAVY 40%"
+      "SYSCO, 6935464",
+      "SYSCO, 40% HEAVY CREAM"
     ],
     [
-      "SYSCO/WHOLESOME FARMS, 4828802.0",
-      "SYSCO/WHOLESOME FARMS, CREAM HEAVY WHIPPING 36%"
+      "SYSCO, 4828802",
+      "SYSCO, 36% HEAVY CREAM"
     ],
     [
-      "SYSCO/WHOLESOME FARMS, 4686758.0",
-      "SYSCO/WHOLESOME FARMS, CREAMER HALF AND HALF"
+      "SYSCO, 4686758",
+      "SYSCO, HALF & HALF"
     ],
     [
       "NAN, NAN",
@@ -1869,180 +1929,186 @@
       "SYSCO, PITT HAM"
     ],
     [
-      "SYSCO/CLASSIC, 3009697.0",
-      "SYSCO/CLASSIC, POTATO SLICED COOKED RUSSET SKINLESS"
+      "SYSCO, 3009697",
+      "SYSCO, POTATO SLICED COOKED"
     ],
     [
-      "SYSCO/CLASSIC, 3094962.0",
-      "SYSCO/CLASSIC, POTATO DICED COOKED RED SKIN-ON"
+      "SYSCO, 3094962",
+      "SYSCO, DICED RED POTATO COOKED"
     ],
     [
-      "SYSCO/CLASSIC, 3009428.0",
-      "SYSCO/CLASSIC, POTATO HASH BROWNS COOKED SKINLESS"
+      "SYSCO, 3009428",
+      "SYSCO, HASH BROWNS"
     ],
     [
-      "SYSCO/KEN'S, 7872328.0",
-      "SYSCO/KEN'S, DRESSING BALSAMIC VINAIGRETTE"
+      "SYSCO, 7872328",
+      "SYSCO, BALSAMIC DRESSING"
     ],
     [
-      "SYSCO/MARZETTI, 3630324.0",
-      "SYSCO/MARZETTI, DRESSING ASIAN SESAME"
+      "SYSCO, 3630324",
+      "SYSCO, SESAME DRESSING"
     ],
     [
-      "SYSCO/RELIANCE, 8763898.0",
-      "SYSCO/RELIANCE, DRESSING HONEY MUSTARD DIJON"
+      "SYSCO, 8763898",
+      "SYSCO, HONEY MUSTARED DRESSING"
     ],
     [
-      "SYSCO, 4278081.0",
+      "SYSCO, 4278081",
       "SYSCO, THOUSAND ISLAND DRESSING"
     ],
     [
-      "SYSCO/KEN'S, 8476732.0",
-      "SYSCO/KEN'S, DRESSING VINAIGRETTE APPLE CIDER"
+      "SYSCO, 8476732",
+      "SYSCO, APPLE CIDER VINAIGRETTE"
     ],
     [
-      "SYSCO, 4084901.0",
+      "SYSCO, 4084901",
       "SYSCO, BLUE CHEESE DRESSING"
     ],
     [
-      "SYSCO/IMPERIAL, 6475719.0",
-      "SYSCO/IMPERIAL, DRESSING GREEK FETA CHEESE"
+      "SYSCO, 6475719",
+      "SYSCO, YASOU FETA DRESSING"
     ],
     [
-      "SYSCO/BLOCK & BARREL, 3554553.0",
-      "SYSCO/BLOCK & BARREL, CHEESE MONTEREY PEPPER JACK SLICED INTERLEAF"
+      "SYSCO, 3554553",
+      "SYSCO, PEPPERJACK CHEESE SLICED"
     ],
     [
-      "SYSCO/BLOCK & BARREL, 3546386.0",
-      "SYSCO/BLOCK & BARREL, CHEESE PROVOLONE NON-SMOKED SLICED .75 OUNCE"
+      "SYSCO, 3546386",
+      "SYSCO, PROVOLONE SLICED"
     ],
     [
-      "SYSCO/BLOCK & BARREL, 3554569.0",
-      "SYSCO/BLOCK & BARREL, CHEESE SWISS SLICED .75 OUNCE"
+      "SYSCO, 3554569",
+      "SYSCO, SWISS SLICED"
     ],
     [
-      "SYSCO/SAPUTO FOODS LTD, 350880.0",
-      "SYSCO/SAPUTO FOODS LTD, CHEESE MOZZARELLA LOW MOISTURE WHOLE MILK MOZZARELLA"
+      "SYSCO, 350880",
+      "SYSCO, MOZZ BLOCK"
     ],
     [
-      "SYSCO/PACKER, 8009714.0",
-      "SYSCO/PACKER, CHEESE CHEDDAR SMOKED 2.25 LB"
+      "SYSCO, 8009714",
+      "SYSCO, SMOKED CHEDDAR"
     ],
     [
-      "SYSCO/BLOCK & BARREL, 3546369.0",
-      "SYSCO/BLOCK & BARREL, CHEESE CHEDDAR MILD SLICED INTERLEAFED .75 OUN"
+      "SYSCO, 3546369",
+      "SYSCO, SLICED CHEDDAR"
     ],
     [
-      "SYSCO, 51322234.0",
+      "SYSCO, 51322234",
       "SYSCO, SLICED AMERICAN"
     ],
     [
-      "SYSCO/FARM COUNTRY, 605950.0",
-      "SYSCO/FARM COUNTRY, CHEESE CHEDDAR WHITE SHARP MICHIGAN"
+      "SYSCO, 605950",
+      "SYSCO, WHITE SHARP CHEDDAR BLOCK"
     ],
     [
-      "SYSCO/BLOCK & BARREL, 4507966.0",
-      "SYSCO/BLOCK & BARREL, CHEESE GRUYERE KING CUTS"
+      "SYSCO, 4507966",
+      "SYSCO, GRUYERE"
     ],
     [
-      "SYSCO/IMPERIAL, 1012327.0",
-      "SYSCO/IMPERIAL, CHEESE BLUE CRUMBLE STYLE CHUNK"
+      "SYSCO, 1012327",
+      "SYSCO, BLUE CHEESE CRUMBLES"
     ],
     [
-      "SYSCO/SUPREMO, 7027846.0",
-      "SYSCO/SUPREMO, CHEESE COJITA QUESO GRATED"
+      "SYSCO, 7027846",
+      "SYSCO, COTJITA"
     ],
     [
       "NAN, NAN",
       "NAN, BRIE"
     ],
     [
-      "SYSCO/FRIENDSHIP CHEESES, 8646038.0",
-      "SYSCO/FRIENDSHIP CHEESES, CHEESE BRIE TIN DANISH"
+      "SYSCO, 8646038",
+      "SYSCO, DANISH BRIE VEG"
     ],
     [
-      "SYSCO/BLOCK & BARREL, 2825061.0",
-      "SYSCO/BLOCK & BARREL, CHEESE CHEDDAR SHARP FEATHER SHREDDED WHITE"
+      "SYSCO, 2825061",
+      "SYSCO, SHREDDED WHITE SHARP CHEDDAR"
     ],
     [
-      "SYSCO/ARREZZIO, 7268538.0",
-      "SYSCO/ARREZZIO, CHEESE PARMESAN GRATED"
+      "SYSCO, 7268538",
+      "SYSCO, GRADED PARMESAN"
     ],
     [
-      "SYSCO/ARREZZIO, 4384214.0",
-      "SYSCO/ARREZZIO, CHEESE MOZZARELLA STRING"
+      "SYSCO, 4384214",
+      "SYSCO, KIDS CHEESE STICK"
     ],
     [
-      "SYSCO/WHOLESOME FARMS, 1012566.0",
-      "SYSCO/WHOLESOME FARMS, CHEESE CREAM LOAF"
+      "SYSCO, 1012566",
+      "SYSCO, CREAM CHEESE LOAF"
     ],
     [
-      "SYSCO, 17354.0",
+      "SYSCO, 0017354",
       "SYSCO, HASH BROWN PATTY"
     ],
     [
-      "SYSCO/ARREZZIO, 2557379.0",
-      "SYSCO/ARREZZIO, HAM PROSCIUTTO COLOSSEUM DOMESTIC TRIMMED"
+      "SYSCO, 2557379",
+      "SYSCO, PROSCIUTTO"
     ],
     [
-      "SYSCO/WHOLESOME FARMS, 7199860.0",
-      "SYSCO/WHOLESOME FARMS, EGG HARDCOOKED PEELED DRY PACK"
+      "SYSCO, 7199860",
+      "SYSCO, HARD BOILD EGGS"
     ],
     [
-      "SYSCO/WHOLESOME FARMS, 4803144.0",
-      "SYSCO/WHOLESOME FARMS, EGG WHITE LIQUID WITH TRIETHYL CITRATE OPTIMUM"
+      "SYSCO, 4803144",
+      "SYSCO, EGG WHITE"
     ],
     [
-      "SYSCO/PAPETTI'S, 1777309.0",
-      "SYSCO/PAPETTI'S, EGG YOLK LIQUID FRESH"
+      "SYSCO, 1777309",
+      "SYSCO, EGG YOLK"
     ],
     [
       "NAN, NAN",
       "NAN, SANDWICH PEPPERONI"
     ],
     [
-      "SYSCO, 7094346.0",
+      "SYSCO, 7094346",
       "SYSCO, SLICED TURKEY BREAST"
     ],
     [
-      "SYSCO, 2565794.0",
+      "SYSCO, 2565794",
       "SYSCO, HARD SALAMI"
     ],
     [
-      "SYSCO/BLOCK & BARREL, 1962976.0",
-      "SYSCO/BLOCK & BARREL, HAM SMOKED SLICED .67 OUNCE"
+      "SYSCO, 1962976",
+      "SYSCO, SLICED HAM"
     ],
     [
-      "NORTHERN LAKES, NAN",
+      "NORTHERN LAKES, 41510195",
       "NORTHERN LAKES, CHORIZO SAUSAGE"
     ],
     [
-      "SYSCO/WHOLESOME FARMS, 7200653.0",
-      "SYSCO/WHOLESOME FARMS, EGG LIQUID SCRAMBLED MIX CARTON"
+      "SYSCO, 7200653",
+      "SYSCO, SCRAMBLED EGG PRODUCT"
     ],
     [
-      "SYSCO/WHOLESOME FARMS, 7208096.0",
-      "SYSCO/WHOLESOME FARMS, EGG SHELL WHITE LARGE"
+      "SYSCO, 7208096",
+      "SYSCO, SHELL EGGS"
     ],
     [
-      "SYSCO, 2386704.0",
+      "SYSCO, 2386704",
       "SYSCO, CORN BEEF"
     ],
     [
-      "SYSCO, 7181050.0",
+      "SYSCO, 7181050",
       "SYSCO, PANCETTA"
     ],
     [
-      "SYSCO/BLOCK & BARREL, 2822437.0",
-      "SYSCO/BLOCK & BARREL, CHEESE SWISS SANDWICH CUT GRADE C"
+      "SYSCO, 2822437",
+      "SYSCO, SWISS CHEESE BLOCK"
     ],
     [
-      "SYSCO, 1557705.0",
+      "SYSCO, 1557705",
       "SYSCO, FIG SPREAD"
     ],
     [
-      "SYSCO/ASHBY'S, 2179905.0",
-      "SYSCO/ASHBY'S, ICE CREAM CHOCOLATE"
+      "NAN, NAN",
+      "NAN, BASEMENT WALK-IN TOTAL:"
+    ]
+  ],
+  "BASEMENT ICE CREAM FREEZER": [
+    [
+      "SYSCO, 2179905",
+      "SYSCO, CHOCOLATE"
     ],
     [
       "NAN, NAN",
@@ -2053,11 +2119,11 @@
       "NAN, MINT CHOCOLATE CHIP"
     ],
     [
-      "SYSCO/ASHBY'S, 2727519.0",
-      "SYSCO/ASHBY'S, ICE CREAM VANILLA BEAN"
+      "SYSCO, 2727519",
+      "SYSCO, VANILLA"
     ],
     [
-      "SYSCO, 2589026.0",
+      "SYSCO, 2589026",
       "SYSCO, CINNAMON"
     ],
     [
@@ -2065,79 +2131,85 @@
       "NAN, SPARTAN SWIRL"
     ],
     [
-      "SYSCO, 7004369.0",
+      "SYSCO, 7004369",
       "SYSCO, LEMON SHERBET"
     ],
     [
-      "SYSCO, 7617459.0",
+      "SYSCO, 7617459",
       "SYSCO, WHITE CHOCOLATE RASPBERRY GELATO"
     ],
     [
-      "SYSCO/BLUE RIBBON, 2277267.0",
-      "SYSCO/BLUE RIBBON, ICE CREAM BAR SUNDAE STRAWBERRY KRUNCH"
+      "SYSCO, 2277267",
+      "SYSCO, BLUE RIBBON STRAWBERRY SHORTCAKE"
     ],
     [
       "NAN, NAN",
       "NAN, BLUE RIBBON VARIETY PACK\n-ICE CREAM SANDWICH\n-DRUMSTICKS\n-FUDGE BAR"
     ],
     [
-      "SYSCO/BLUE BUNNY, 2577328.0",
-      "SYSCO/BLUE BUNNY, ICE CREAM SANDWICH VANILLA"
+      "SYSCO, 2577328",
+      "SYSCO, ICE CREAM SANDWICH"
     ],
     [
       "NAN, NAN",
       "NAN, DRUMSTICKS"
     ],
     [
-      "SYSCO/BLUE RIBBON, 7058869.0",
-      "SYSCO/BLUE RIBBON, ICE CREAM BAR FUDGE"
+      "SYSCO, 7058869",
+      "SYSCO, FUDGE BAR"
     ],
     [
-      "SYSCO/BLUE BUNNY, 2577328.0",
-      "SYSCO/BLUE BUNNY, ICE CREAM SANDWICH VANILLA"
+      "SYSCO, 2577328",
+      "SYSCO, VANILLA SANDWICH"
     ],
     [
-      "SYSCO/BLUE RIBBON, 7058869.0",
-      "SYSCO/BLUE RIBBON, ICE CREAM BAR FUDGE"
+      "SYSCO, 7058869",
+      "SYSCO, FUDGE BAR"
     ],
     [
-      "SYSCO, 7209787.0",
+      "SYSCO, 7209787",
       "SYSCO, LEMON ITALIAN DESSERT"
     ],
     [
-      "SYSCO, 1024363.0",
+      "SYSCO, 1024363",
       "SYSCO, SLICED STRAWBERRIES"
     ],
     [
-      "SYSCO/HOUSE OF FLAVORS, 2588861.0",
-      "SYSCO/HOUSE OF FLAVORS, SHERBET RAINBOW"
+      "SYSCO, 2588861",
+      "SYSCO, RAINBOW SHERBET"
     ],
     [
-      "SYSCO, 2560357.0",
+      "SYSCO, 2560357",
       "SYSCO, LEMON ITALIAN ICE"
     ],
     [
-      "SYSCO/WHOLESOME FARMS, 3412410.0",
-      "SYSCO/WHOLESOME FARMS, ICE CREAM VANILLA CUP 4 OUNCES"
+      "SYSCO, 3412410",
+      "SYSCO, VANILLA ICE CREAM CUP"
     ],
     [
-      "SYSCO/WHOLESOME FARMS, 3412424.0",
-      "SYSCO/WHOLESOME FARMS, ICE CREAM CHOCOLATE CUP 4 OUNCES"
+      "SYSCO, 3412424",
+      "SYSCO, CHOCOLATE ICE CREAM CUP"
     ],
     [
-      "SYSCO/BUTCHER'S BLOCK, 5812296.0",
-      "SYSCO/BUTCHER'S BLOCK, PORK LOIN BONELESS CENTER-CUT STRAP-OFF"
+      "NAN, NAN",
+      "NAN, BASEMENT ICE CREAM FREEZER TOTAL:"
+    ]
+  ],
+  "BASEMENT PROTEIN FREEZER": [
+    [
+      "SYSCO, 5812296",
+      "SYSCO, PORK LOIN"
     ],
     [
-      "SYSCO, 7186689.0",
+      "SYSCO, 7186689",
       "SYSCO, SY GINSBERG'S  CORN BEEF"
     ],
     [
-      "SYSCO, 1323005.0",
+      "SYSCO, 1323005",
       "SYSCO, LAMB CHOP LOIN"
     ],
     [
-      "SYSCO, 5812534.0",
+      "SYSCO, 5812534",
       "SYSCO, PORK TENDERLOIN"
     ],
     [
@@ -2165,7 +2237,13 @@
       "MSU, SMOKED PORK SHOULDER"
     ],
     [
-      "SYSCO, 4099099.0",
+      "NAN, NAN",
+      "NAN, BASEMENT PROTEIN FREEZER TOTAL:"
+    ]
+  ],
+  "STOREROOM": [
+    [
+      "SYSCO, 4099099",
       "SYSCO, NAVY BEANS"
     ],
     [
@@ -2173,71 +2251,71 @@
       "NAN, REY DEL ARROZ SPANISH PAELLA RICE"
     ],
     [
-      "SYSCO, 4096954.0",
+      "SYSCO, 4096954",
       "SYSCO, LENTILS"
     ],
     [
-      "SYSCO, 4099115.0",
+      "SYSCO, 4099115",
       "SYSCO, GREEN SPLIT PEAS"
     ],
     [
-      "SYSCO/BEN'S ORIGINAL MCW RICE, 7191045.0",
-      "SYSCO/BEN'S ORIGINAL MCW RICE, RICE BASMATI INTNL BENS"
+      "SYSCO, 7191045",
+      "SYSCO, BASMATI"
     ],
     [
-      "SYSCO/IMPERIAL, 4671350.0",
-      "SYSCO/IMPERIAL, RICE PARBOILED PERFECT"
+      "SYSCO, 4671350",
+      "SYSCO, PARBOILED RICE"
     ],
     [
-      "SYSCO/ARREZZIO, 2145985.0",
-      "SYSCO/ARREZZIO, RICE ARBORIO ITALIAN SUPERFINO"
+      "SYSCO, 2145985",
+      "SYSCO, ARBORIO RICE"
     ],
     [
-      "SYSCO, 3616679.0",
+      "SYSCO, 3616679",
       "SYSCO, QUINOA"
     ],
     [
-      "SYSCO/JADE MOUNTAIN, 9689688.0",
-      "SYSCO/JADE MOUNTAIN, RICE JASMINE"
+      "SYSCO, 9689688",
+      "SYSCO, JASMINE RICE"
     ],
     [
-      "SYSCO, 3746872.0",
+      "SYSCO, 3746872",
       "SYSCO, BROWN FLAX SEED"
     ],
     [
-      "SYSCO/RELIANCE, 4002408.0",
-      "SYSCO/RELIANCE, MAYONNAISE HEAVY DUTY PAIL"
+      "SYSCO, 4002408",
+      "SYSCO, MAYO BUCKET"
     ],
     [
-      "SYSCO/RELIANCE, 4002432.0",
-      "SYSCO/RELIANCE, MAYONNAISE HEAVY DUTY"
+      "SYSCO, 4002432",
+      "SYSCO, MAYO"
     ],
     [
-      "SYSCO/HIDDEN VALLEY RANCH, 5195847.0",
-      "SYSCO/HIDDEN VALLEY RANCH, DRESSING RANCH ORIGINAL"
+      "SYSCO, 5195847",
+      "SYSCO, HIDDEN VALLEY RANCH"
     ],
     [
-      "SYSCO/HIDDEN VALLEY RANCH, 948737.0",
-      "SYSCO/HIDDEN VALLEY RANCH, DRESSING RASPBERRY VINAIGRETTE"
+      "SYSCO, 948737",
+      "SYSCO, RASPBERRY VINAIGRETTE"
     ],
     [
-      "SYSCO/IMPERIAL, 5005327.0",
-      "SYSCO/IMPERIAL, DRESSING CAESAR WITH EGG"
+      "SYSCO, 5005327",
+      "SYSCO, CAESAR DRESSING"
     ],
     [
-      "SYSCO/IMPERIAL, 9591264.0",
-      "SYSCO/IMPERIAL, DRESSING CILANTRO VINAIGRETTE"
+      "SYSCO, 9591264",
+      "SYSCO, CILANTRO DRESSING"
     ],
     [
-      "SYSCO, 1069202.0",
+      "SYSCO, 1069202",
       "SYSCO, HARVEST BULGUR WHEAT"
     ],
     [
-      "SYSCO, 1032198.0",
+      "SYSCO, 1032198",
       "SYSCO, PEARLED COUSCOUS"
     ],
     [
-      "SYSCO, 5848056.0",
+      "SYSCO, 5848056",
       "SYSCO, CHIEFTAN WILD RICE"
     ],
     [
@@ -2261,127 +2339,127 @@
       "NAN, BARLEY"
     ],
     [
-      "SYSCO/CLASSIC, 7626013.0",
-      "SYSCO/CLASSIC, SHORTENING FRY CANOLA CLEAR ZERO TRANS FAT"
+      "SYSCO, 7626013",
+      "SYSCO, FRY SHORTENING"
     ],
     [
-      "SYSCO/TRULY, 255941.0",
-      "SYSCO/TRULY, OIL OLIVE EXTRA VIRGIN 10 L BAG IN BOX"
+      "SYSCO, 0255941",
+      "SYSCO, EXTRA VIRGIN OLIVE OIL BOX 10L"
     ],
     [
-      "SYSCO/ARREZZIO, 5934302.0",
-      "SYSCO/ARREZZIO, OIL OLIVE BLEND 80/20"
+      "SYSCO, 5934302",
+      "SYSCO, 80/20 OIL"
     ],
     [
-      "SYSCO/GARDETTO'S, 5660816.0",
-      "SYSCO/GARDETTO'S, SNACK MIX ORIGINAL SNAK-ENS"
+      "SYSCO, 5660816",
+      "SYSCO, GARDETTOS SNACK MIX ORIGINAL"
     ],
     [
-      "SYSCO, 7592348.0",
+      "SYSCO, 7592348",
       "SYSCO, CHEX MIX TRADITIONAL"
     ],
     [
-      "SYSCO, 1899063.0",
+      "SYSCO, 1899063",
       "SYSCO, STRAWBERRY CHEX MIX"
     ],
     [
-      "SYSCO, 7451305.0",
+      "SYSCO, 7451305",
       "SYSCO, SHEET RICE KRISPY TREAT"
     ],
     [
-      "SYSCO/PEPPERIDGE FARM, 6599405.0",
-      "SYSCO/PEPPERIDGE FARM, CRACKER GOLDFISH WHOLE GRAIN"
+      "SYSCO, 6599405",
+      "SYSCO, GOLDFISH BULK"
     ],
     [
-      "SYSCO/SUNSHINE, 5538590.0",
-      "SYSCO/SUNSHINE, CRACKER CHEEZ-IT ORIGINAL SNACK"
+      "SYSCO, 5538590",
+      "SYSCO, CHEEZ-ITS"
     ],
     [
-      "SYSCO/KELLOGG'S, 6092714.0",
-      "SYSCO/KELLOGG'S, SNACK BAR RICE KRISPIES TREAT"
+      "SYSCO, 6092714",
+      "SYSCO, RICE KRISPY INDIVIDUAL"
     ],
     [
-      "SYSCO/LAYS, 6586721.0",
-      "SYSCO/LAYS, CHIP VARIETY FRITO LAY"
+      "SYSCO, 6586721",
+      "SYSCO, FRITOLAY VARIETY CHIPS"
     ],
     [
-      "SYSCO, 5321841.0",
+      "SYSCO, 5321841",
       "SYSCO, MINI PRETZEL BULK"
     ],
     [
-      "SYSCO/CASA SOLANA, 9407057.0",
-      "SYSCO/CASA SOLANA, CHIP TORTILLA TRI COLOR PREFRY"
+      "SYSCO, 9407057",
+      "SYSCO, TRICOLOR TORTILLA CHIPS"
     ],
     [
-      "SYSCO/PEPPERIDGE FARM, 6599405.0",
-      "SYSCO/PEPPERIDGE FARM, CRACKER GOLDFISH WHOLE GRAIN"
+      "SYSCO, 6599405",
+      "SYSCO, GOLDFISH INDIVIDUAL BAGS"
     ],
     [
-      "SYSCO/ROLD GOLD, 8083164.0",
-      "SYSCO/ROLD GOLD, PRETZEL TINY TWIST CLASSIC"
+      "SYSCO, 8083164",
+      "SYSCO, MINI PRETZEL"
     ],
     [
-      "SYSCO/BLOCK & BARREL, 7221933.0",
-      "SYSCO/BLOCK & BARREL, CHIP POTATO ORIGINAL KETTLE"
+      "SYSCO, 7221933",
+      "SYSCO, BULK KETTLE CHIPS"
     ],
     [
-      "SYSCO/SMARTFOOD, 6783417.0",
-      "SYSCO/SMARTFOOD, POPCORN CHEDDAR WHITE LARGE"
+      "SYSCO, 6783417",
+      "SYSCO, WHITE CHEDDAR POPCORN"
     ],
     [
-      "VANEERDEN, NAN",
+      "VANEERDEN, 1461",
       "VANEERDEN, COFFEE BEAN DECAF DINER'S"
     ],
     [
-      "VANEERDEN, NAN",
+      "VANEERDEN, 561",
       "VANEERDEN, COFFEE WHOLE BEAN COLUMBIAN"
     ],
     [
-      "SYSCO, 8562621.0",
+      "SYSCO, 8562621",
       "SYSCO, OATS"
     ],
     [
-      "SYSCO/QUAKER, 1827433.0",
-      "SYSCO/QUAKER, CEREAL HOT OATMEAL VARIETY"
+      "SYSCO, 1827433",
+      "SYSCO, OATMEAL PACKET"
     ],
     [
       "CARBON'S GOLDEN MALTED, NAN",
       "CARBON'S GOLDEN MALTED, GOLDEN MALTED WAFFLE MIX"
     ],
     [
-      "SYSCO, 4227104.0",
+      "SYSCO, 4227104",
       "SYSCO, DRAKES CRISPY FRY MIX"
     ],
     [
-      "SYSCO/CITAVO, 8322224.0",
-      "SYSCO/CITAVO, COFFEE GROUND COLOMBIAN MEDIUM WITH FILTER"
+      "SYSCO, 8322224",
+      "SYSCO, CITAVO COFFEE"
     ],
     [
-      "SYSCO/CLASSIC, 5087572.0",
-      "SYSCO/CLASSIC, SUGAR GRANULATED EXTRA FINE CANE"
+      "SYSCO, 5087572",
+      "SYSCO, SUGAR"
     ],
     [
-      "SYSCO, 4540373.0",
+      "SYSCO, 4540373",
       "SYSCO, IODIZED SALT"
     ],
     [
-      "SYSCO, 5869853.0",
+      "SYSCO, 5869853",
       "SYSCO, MONIN DARK CHOCOLATE SAUCE"
     ],
     [
-      "SYSCO, 6371373.0",
+      "SYSCO, 6371373",
       "SYSCO, MONIN CARAMEL SAUCE"
     ],
     [
-      "SYSCO, 7160036.0",
+      "SYSCO, 7160036",
       "SYSCO, MONIN WHITE CHOCOLATE SAUCE"
     ],
     [
-      "SYSCO, 9272592.0",
+      "SYSCO, 9272592",
       "SYSCO, MONIN STRAWBERRY SYRUP"
     ],
     [
-      "SYSCO, 9228610.0",
+      "SYSCO, 9228610",
       "SYSCO, MONIN RASPBERRY SYRUP"
     ],
     [
@@ -2389,35 +2467,39 @@
       "NAN, MONIN ROOT BEER SYRUP"
     ],
     [
-      "SYSCO, 9226150.0",
+      "SYSCO, 9226150",
       "SYSCO, MONIN HAZELNUT SYRUP"
     ],
     [
-      "SYSCO/HOUSE RECIPE, 4204996.0",
-      "SYSCO/HOUSE RECIPE, CRACKER SALTINE 2 PER PACKET"
+      "SYSCO, 4204996",
+      "SYSCO, SALTINE CRACKERS"
     ],
     [
-      "SYSCO, 4488464.0",
+      "SYSCO, 4488464",
       "SYSCO, OYSTER CRACKERS"
     ],
     [
-      "SYSCO/CLASSIC, 6040760.0",
-      "SYSCO/CLASSIC, SALT KOSHER FLAKE COARSE"
+      "SYSCO, 6040760",
+      "SYSCO, KOSHER SALT"
     ],
     [
       "NAN, NAN",
       "NAN, FRENCH ONION MIX"
     ],
     [
-      "SYSCO, 4279592.0",
+      "SYSCO, 4279592",
       "SYSCO, DARK BROWN SUGAR"
     ],
     [
-      "SYSCO, 4080966.0",
+      "SYSCO, 8379270",
+      "SYSCO, ALL PURPOSE FLOUR"
+    ],
+    [
+      "SYSCO, 4080966",
       "SYSCO, MARSHMALLOWS LITTLE"
     ],
     [
-      "SYSCO, 7677784.0",
+      "SYSCO, 7677784",
       "SYSCO, HOT COCOA MIX"
     ],
     [
@@ -2433,12 +2515,12 @@
       "NAN, EQUAL"
     ],
     [
-      "SYSCO/SWEET & LOW, 2326140.0",
-      "SYSCO/SWEET & LOW, SUGAR SUBSTITUTE PACKET PINK"
+      "SYSCO, 2326140",
+      "SYSCO, SWEET N' LOW"
     ],
     [
-      "SYSCO/CLASSIC, 4000899.0",
-      "SYSCO/CLASSIC, SUGAR EXTRA FINE GRANULAR PACKET"
+      "SYSCO, 4000899",
+      "SYSCO, SUGAR PACKETS"
     ],
     [
       "SYSCO, NAN",
@@ -2449,295 +2531,295 @@
       "NAN, POMEGRANITE PUREE"
     ],
     [
-      "SYSCO/FERRIS COFFEE & NUT, 6239523.0",
-      "SYSCO/FERRIS COFFEE & NUT, COFFEE BEAN REGULAR ESPRESSO SUPREME"
+      "SYSCO, 6239523",
+      "SYSCO, FERRIS COFFEE"
     ],
     [
-      "SYSCO/CITAVO, 7545589.0",
-      "SYSCO/CITAVO, COFFEE BEAN HOUSE BLEND BULK"
+      "SYSCO, 7545589",
+      "SYSCO, CITAVO PERU WHOLE BEAN COFFEE"
     ],
     [
-      "SYSCO/INTERNATIONAL DELIGHT, 7441314.0",
-      "SYSCO/INTERNATIONAL DELIGHT, CREAMER COFFEE HAZELNUT ND"
+      "SYSCO, 7441314",
+      "SYSCO, HAZELNUT CREAMER"
     ],
     [
-      "SYSCO/CLASSIC, 4645438.0",
-      "SYSCO/CLASSIC, PEANUT DRY ROASTED SALTED BLANCHED"
+      "SYSCO, 4645438",
+      "SYSCO, DRY ROASTED PEANUTS"
     ],
     [
-      "SYSCO, 5835376.0",
+      "SYSCO, 5835376",
       "SYSCO, MACADEMIA NUT WHOLE DRY ROASTED"
     ],
     [
-      "SYSCO, 4645018.0",
+      "SYSCO, 4645018",
       "SYSCO, FERRIS RST SLT DLXE MIXED NUTS"
     ],
     [
-      "SYSCO/LIPTON, 4046264.0",
-      "SYSCO/LIPTON, TEA BAG ICED 1 OZ"
+      "SYSCO, 4046264",
+      "SYSCO, HOT TEA"
     ],
     [
-      "SYSCO, 5062088.0",
+      "SYSCO, 5062088",
       "SYSCO, HOT TEA DECAF"
     ],
     [
-      "SYSCO, 7068326.0",
+      "SYSCO, 7068326, 7068321, 7068336, 7068322, 7068348",
       "SYSCO, FLAVORED TEAS"
     ],
     [
-      "SYSCO/CITAVO, 7100285.0",
-      "SYSCO/CITAVO, CREAMER COFFEE CITAVO NON DAIRY ORIGINAL"
+      "SYSCO, 7100285",
+      "SYSCO, ORIGINAL CREAMER"
     ],
     [
-      "SYSCO/CITAVO, 7100252.0",
-      "SYSCO/CITAVO, CREAMER COFFEE CITAVO FRENCH VANILLA"
+      "SYSCO, 7100252",
+      "SYSCO, FRENCH VANILLA"
     ],
     [
-      "SYSCO/INTERNATIONAL DELIGHT, 7441314.0",
-      "SYSCO/INTERNATIONAL DELIGHT, CREAMER COFFEE HAZELNUT ND"
+      "SYSCO, 7441314",
+      "SYSCO, HAZELNUT CREAM"
     ],
     [
-      "SYSCO/INTERNATIONAL DELIGHT, 7940998.0",
-      "SYSCO/INTERNATIONAL DELIGHT, CREAMER NON-DAIRY CARAMEL MACCHIATO"
+      "SYSCO, 7940998",
+      "SYSCO, CARAMEL MACHIATO"
     ],
     [
-      "SYSCO, 4899326.0",
+      "SYSCO, 4899326",
       "SYSCO, ROASTED RED SKIN PEANUTS"
     ],
     [
-      "SYSCO/CLASSIC, 4645412.0",
-      "SYSCO/CLASSIC, ALMOND NAUTRAL SLICED"
+      "SYSCO, 4645412",
+      "SYSCO, SLICED ALMONDS"
     ],
     [
-      "SYSCO/CLASSIC, 7078389.0",
-      "SYSCO/CLASSIC, PECAN HALVES MEDIUM FANCY RAW"
+      "SYSCO, 7078389",
+      "SYSCO, PECANS"
     ],
     [
-      "SYSCO, 4700417.0",
+      "SYSCO, 4700417",
       "SYSCO, YELLOW MUSTARD SMALL BOTTLE"
     ],
     [
-      "SYSCO, 3420587.0",
+      "SYSCO, 3420587",
       "SYSCO, MAYO SMALL BOTTLE"
     ],
     [
-      "SYSCO/HOUSE RECIPE, 4560934.0",
-      "SYSCO/HOUSE RECIPE, KETCHUP SQUEEZE RED BOTTLE"
+      "SYSCO, 4560934",
+      "SYSCO, KETCHUP SMALL BOTTLE "
     ],
     [
       "NAN, NAN",
       "NAN, SPICES"
     ],
     [
-      "SYSCO, 4432068.0",
+      "SYSCO, 4432068",
       "SYSCO, CAPERBERRIES"
     ],
     [
-      "SYSCO/IMPERIAL, 5535679.0",
-      "SYSCO/IMPERIAL, CAPERS NONPAREIL IMPORTED"
+      "SYSCO, 5535679",
+      "SYSCO, CAPERS"
     ],
     [
-      "SYSCO, 4171755.0",
+      "SYSCO, 4171755",
       "SYSCO, WHITE TRUFFLE OLIVE OIL"
     ],
     [
-      "SYSCO/HOUSE RECIPE, 5686266.0",
-      "SYSCO/HOUSE RECIPE, KETCHUP FANCY"
+      "SYSCO, 5686266",
+      "SYSCO, KETCHUP HOUSE RECIPE"
     ],
     [
       "NAN, NAN",
       "NAN, TOMATO PUREE"
     ],
     [
-      "SYSCO/FULL-RED, 5031596.0",
-      "SYSCO/FULL-RED, TOMATO, DICED"
+      "SYSCO, 5031596",
+      "SYSCO, DICED TOMATOES"
     ],
     [
-      "SYSCO, 4015343.0",
+      "SYSCO, 4015343",
       "SYSCO, SLICED BEETS"
     ],
     [
-      "SYSCO/RELIANCE, 4061875.0",
-      "SYSCO/RELIANCE, APPLE SLICES IN WATER 6.5#"
+      "SYSCO, 4061875",
+      "SYSCO, SLICED APPLES"
     ],
     [
-      "SYSCO/CLASSIC, 2182063.0",
-      "SYSCO/CLASSIC, PEACH SLICED CHOICE EXTRA IN LIGHT SYRUP"
+      "SYSCO, 2182063",
+      "SYSCO, SLICED PEACHES"
     ],
     [
-      "SYSCO, 4014973.0",
+      "SYSCO, 4014973",
       "SYSCO, KIDNEY BEANS"
     ],
     [
-      "SYSCO, 4891883.0",
+      "SYSCO, 4891883",
       "SYSCO, DICED PEARS"
     ],
     [
-      "SYSCO, 4087391.0",
+      "SYSCO, 4087391",
       "SYSCO, PINEAPPLE"
     ],
     [
-      "SYSCO/CLASSIC, 4062337.0",
-      "SYSCO/CLASSIC, BEAN GARBANZO FANCY NO SULFITE"
+      "SYSCO, 4062337",
+      "SYSCO, GARBANZO BEANS"
     ],
     [
       "SYSCO, NAN",
       "SYSCO, IMPERIAL DARK SWEET CHERRIES"
     ],
     [
-      "SYSCO/IMPERIAL, 4189171.0",
-      "SYSCO/IMPERIAL, SAUERKRAUT SHREDDED FANCY"
+      "SYSCO, 4189171",
+      "SYSCO, SAUERKRAUT"
     ],
     [
-      "SYSCO, 3362274.0",
+      "SYSCO, 3362274",
       "SYSCO, PINTO BEANS"
     ],
     [
-      "SYSCO, 9576307.0",
+      "SYSCO, 9576307",
       "SYSCO, SWEET POTATOES"
     ],
     [
-      "SYSCO/BUSH BROTHERS, 8129645.0",
-      "SYSCO/BUSH BROTHERS, BEAN GREAT NORTHERN FANCY"
+      "SYSCO, 8129645",
+      "SYSCO, NORTHERN BEANS "
     ],
     [
-      "SYSCO, 282238.0",
+      "SYSCO, 282238",
       "SYSCO, CHEDAR CHEESE"
     ],
     [
-      "SYSCO/CLASSIC, 8326872.0",
-      "SYSCO/CLASSIC, BEAN BAKED SLOW COOKED"
+      "SYSCO, 8326872",
+      "SYSCO, BAKED BEANS "
     ],
     [
-      "SYSCO/SIMPLOT ROASTWORKS, 4273470.0",
-      "SYSCO/SIMPLOT ROASTWORKS, BEANS BLACK WITH CORN FLAME ROASTED FIESTA"
+      "SYSCO, 4273470",
+      "SYSCO, BLACK BEANS"
     ],
     [
-      "SYSCO/CASA SOLANA, 7143211.0",
-      "SYSCO/CASA SOLANA, SALSA JALAPENO FIRE ROASTED DICED"
+      "SYSCO, 7143211",
+      "SYSCO, SALSA"
     ],
     [
-      "SYSCO/ARREZZIO, 5889654.0",
-      "SYSCO/ARREZZIO, VINEGAR BALSAMIC ITALY"
+      "SYSCO, 5889654",
+      "SYSCO, BALSAMIC VINEGAR"
     ],
     [
-      "SYSCO/MAE PLOY, 1901992.0",
-      "SYSCO/MAE PLOY, SAUCE CHILI SWEET THAI"
+      "SYSCO, 1901992",
+      "SYSCO, CHILI SAUCE"
     ],
     [
-      "SYSCO/ARGO, 4032991.0",
-      "SYSCO/ARGO, CORN STARCH"
+      "SYSCO, 4032991",
+      "SYSCO, CORNSTARCH"
     ],
     [
-      "SYSCO/IMPERIAL, 7097100.0",
-      "SYSCO/IMPERIAL, OLIVES GREEN QUEEN PITTED 100/120 CT"
+      "SYSCO, 7097100",
+      "SYSCO, RIPE OLIVES"
     ],
     [
-      "SYSCO, 4004438.0",
+      "SYSCO, 4004438",
       "SYSCO, ASIAN NOODLES"
     ],
     [
-      "SYSCO/FULL-RED, 7189296.0",
-      "SYSCO/FULL-RED, SAUCE MARINARA CHUNKY"
+      "SYSCO, 7189296",
+      "SYSCO, MARINARA"
     ],
     [
-      "SYSCO/SWEET BABY RAY'S, 3369388.0",
-      "SYSCO/SWEET BABY RAY'S, SAUCE BARBEQUE ORIGINAL"
+      "SYSCO, 3369388",
+      "SYSCO, BABY RAY BBQ"
     ],
     [
-      "SYSCO/CLASSIC, 9732967.0",
-      "SYSCO/CLASSIC, PEANUT BUTTER CREAMY PET PLASTIC CONTAINER JAR"
+      "SYSCO, 9732967",
+      "SYSCO, BULK PEANUT BUTTER"
     ],
     [
       "SYSCO, NAN",
       "SYSCO, GRAPE JELLY"
     ],
     [
-      "SYSCO, 4186441.0",
+      "SYSCO, 4186441",
       "SYSCO, ORANGE MARMELADE"
     ],
     [
-      "SYSCO/CLASSIC, 4186086.0",
-      "SYSCO/CLASSIC, SYRUP PANCAKE & WAFFLE"
+      "SYSCO, 4186086",
+      "SYSCO, PANCAKE SYRUP"
     ],
     [
-      "SYSCO/FRANK'S REDHOT, 7524051.0",
-      "SYSCO/FRANK'S REDHOT, SAUCE PEPPER CAYENNE RED HOT"
+      "SYSCO, 7524051",
+      "SYSCO, FRANKS RED HOT"
     ],
     [
-      "SYSCO/LEA & PERRINS, 4007852.0",
-      "SYSCO/LEA & PERRINS, SAUCE WORCESTERSHIRE"
+      "SYSCO, 4007852",
+      "SYSCO, WORCESTERSHIRE"
     ],
     [
-      "SYSCO/A.1. STEAK SAUCE, 4007522.0",
-      "SYSCO/A.1. STEAK SAUCE, SAUCE STEAK GLASS"
+      "SYSCO, 4007522",
+      "SYSCO, A1 SAUCE"
     ],
     [
-      "SYSCO/TABASCO, 5102736.0",
-      "SYSCO/TABASCO, SAUCE TABASCO HOT"
+      "SYSCO, 5102736",
+      "SYSCO, TOBASCO"
     ],
     [
-      "SYSCO, 4122875.0",
+      "SYSCO, 4122875",
       "SYSCO, MALT VINEGAR"
     ],
     [
-      "SYSCO/SUPREME, 8357873.0",
-      "SYSCO/SUPREME, ORANGE MANDARIN WHOLE SEGMENTS IN JUICE"
+      "SYSCO, 8357873",
+      "SYSCO, MANDARIN ORANGE"
     ],
     [
-      "SYSCO, 7077490.0",
+      "SYSCO, 7077490",
       "SYSCO, BAKING SODA"
     ],
     [
-      "SYSCO, 5239389.0",
+      "SYSCO, 5239389",
       "SYSCO, VANILLA IMITATION"
     ],
     [
-      "SYSCO/CLASSIC, 7082172.0",
-      "SYSCO/CLASSIC, POWDER BAKING"
+      "SYSCO, 7082172",
+      "SYSCO, BAKING POWDER"
     ],
     [
-      "SYSCO, 4279592.0",
+      "SYSCO, 4279592",
       "SYSCO, DARK BROWN SUGAR"
     ],
     [
-      "SYSCO, 5492640.0",
+      "SYSCO, 5492640",
       "SYSCO, CHAMPAGNE VINEGAR"
     ],
     [
-      "SYSCO/CLASSIC, 4113049.0",
-      "SYSCO/CLASSIC, VINEGAR WHITE DISTILLED 50 GRAIN"
+      "SYSCO, 4113049",
+      "SYSCO, WHITE VINEGAR"
     ],
     [
-      "SYSCO/CLASSIC, 4113056.0",
-      "SYSCO/CLASSIC, VINEGAR RED WINE 50 GRAIN"
+      "SYSCO, 4113056",
+      "SYSCO, RED WINE VINEGAR"
     ],
     [
-      "SYSCO/HOUSE RECIPE, 3530128.0",
-      "SYSCO/HOUSE RECIPE, HONEY PURE CUP"
+      "SYSCO, 3530128",
+      "SYSCO, HONEY CUP"
     ],
     [
-      "SYSCO/RELIANCE, 3374097.0",
-      "SYSCO/RELIANCE, HONEY PURE LIGHT AMBER GRADE A TRUE SOURCE CERTIFIED IN JUG"
+      "SYSCO, 3374097",
+      "SYSCO, PURE HONEY"
     ],
     [
-      "SYSCO/CLASSIC, 4069373.0",
-      "SYSCO/CLASSIC, VINEGAR APPLE CIDER 50 GRAIN"
+      "SYSCO, 4069373",
+      "SYSCO, APPLE CIDER VINEGAR"
     ],
     [
-      "SYSCO/COLUMELA (DRY), 4965503.0",
-      "SYSCO/COLUMELA (DRY), VINEGAR SHERRY"
+      "SYSCO, 4965503",
+      "SYSCO, SHERRY VINEGAR"
     ],
     [
-      "SYSCO/CASA SOLANA, 2386134.0",
-      "SYSCO/CASA SOLANA, TORTILLA FLOUR PRESSED 6 INCHES"
+      "SYSCO, 2386134",
+      "SYSCO, 6\" FLOUR TORTILLA"
     ],
     [
-      "SYSCO/MISSION FOODS, 9887902.0",
-      "SYSCO/MISSION FOODS, SHELL TACO YELLOW REGULAR 5\""
+      "SYSCO, 9887902",
+      "SYSCO, HARD TACO SHELL"
     ],
     [
-      "SYSCO, 7283258.0",
+      "SYSCO, 7283258",
       "SYSCO, BULGOGI SAUCE"
     ],
     [
@@ -2749,76 +2831,76 @@
       "FUSTINI'S, FUSTINI OIL"
     ],
     [
-      "SYSCO/JADE MOUNTAIN, 5109780.0",
-      "SYSCO/JADE MOUNTAIN, VINEGAR RICE UNSEASONED NO MSG"
+      "SYSCO, 5109780",
+      "SYSCO, RICE WINE VINEGAR"
     ],
     [
-      "SYSCO/HUY FONG, 2451417.0",
-      "SYSCO/HUY FONG, SAUCE CHILI HOT SRIRACHA"
+      "SYSCO, 2451417",
+      "SYSCO, SRIRACHA"
     ],
     [
-      "SYSCO/MAE PLOY, 1901992.0",
-      "SYSCO/MAE PLOY, SAUCE CHILI SWEET THAI"
+      "SYSCO, 1901992",
+      "SYSCO, MAE PLOY"
     ],
     [
-      "SYSCO/ARREZZIO, 651828.0",
-      "SYSCO/ARREZZIO, GLAZE BALSAMIC VINEGAR OF MODENA"
+      "SYSCO, 0651828",
+      "SYSCO, BALSAMIC GLAZE"
     ],
     [
-      "SYSCO, 5757091.0",
+      "SYSCO, 5757091",
       "SYSCO, CHIPOTLE PEPPERS"
     ],
     [
-      "SYSCO, 4293373.0",
+      "SYSCO, 4293373",
       "SYSCO, ARTICHOKE HEARTS"
     ],
     [
-      "SYSCO/ARREZZIO, 5017918.0",
-      "SYSCO/ARREZZIO, PEPPER RED FIRE ROASTED STRIPS"
+      "SYSCO, 5017918",
+      "SYSCO, ROASTED RED PEPPER"
     ],
     [
-      "SYSCO/BARILLA ITALIAN PASTA, 8843195.0",
-      "SYSCO/BARILLA ITALIAN PASTA, PASTA FARFALLE BOWTIE"
+      "SYSCO, 8843195",
+      "SYSCO, BOWTIE"
     ],
     [
-      "SYSCO/BARILLA ITALIAN PASTA, 8085888.0",
-      "SYSCO/BARILLA ITALIAN PASTA, PASTA GEMELLI"
+      "SYSCO, 8085888",
+      "SYSCO, GEMELLI PASTA"
     ],
     [
-      "SYSCO, 9688367.0",
+      "SYSCO, 9688367",
       "SYSCO, MACARONI"
     ],
     [
-      "SYSCO/PASTA LABELLA, 6040885.0",
-      "SYSCO/PASTA LABELLA, PASTA CAVATAPPI 100% DURUM WHEAT SEMOLINA"
+      "SYSCO, 6040885",
+      "SYSCO, CAVETAPI"
     ],
     [
-      "SYSCO, 4899365.0",
+      "SYSCO, 4899365",
       "SYSCO, CHILI GARLIC "
     ],
     [
-      "SYSCO/LEE KUM KEE, 4520623.0",
-      "SYSCO/LEE KUM KEE, HOISIN SAUCE"
+      "SYSCO, 4520623",
+      "SYSCO, HOISIN"
     ],
     [
-      "SYSCO, 3802147.0",
+      "SYSCO, 3802147",
       "SYSCO, SWEET & SOUR"
     ],
     [
-      "SYSCO/PEPPADEW, 304259.0",
-      "SYSCO/PEPPADEW, PEPPER PIQUANTE SWEET WHOLE MILD"
+      "SYSCO, 304259",
+      "SYSCO, PEPPADEW PEPPERS"
     ],
     [
-      "SYSCO, 4700417.0",
+      "SYSCO, 4700417",
       "SYSCO, YELLOW MUSTARD SMALL BOTTLE"
     ],
     [
-      "SYSCO, 5371299.0",
+      "SYSCO, 5371299",
       "SYSCO, DIJON MUSTARD"
     ],
     [
-      "SYSCO/IMPERIAL, 7110474.0",
-      "SYSCO/IMPERIAL, PAN COATING CANOLA"
+      "SYSCO, 7110474",
+      "SYSCO, COOKING SPRAY"
     ],
     [
       "NAN, NAN",
@@ -2841,39 +2923,39 @@
       "NAN, WALNUT OIL"
     ],
     [
-      "SYSCO, 7011663.0",
+      "SYSCO, 7011663",
       "SYSCO, TAHINI"
     ],
     [
-      "SYSCO/JADE MOUNTAIN, 1425982.0",
-      "SYSCO/JADE MOUNTAIN, MILK COCONUT UNSWEETENED"
+      "SYSCO, 1425982",
+      "SYSCO, COCONUT MILK SMALL"
     ],
     [
       "NAN, NAN",
       "NAN, OYSTER SAUCE"
     ],
     [
-      "SYSCO/LEE KUM KEE, 4899373.0",
-      "SYSCO/LEE KUM KEE, OIL SESAME SEED PURE"
+      "SYSCO, 4899373",
+      "SYSCO, SESAME SEED OIL"
     ],
     [
-      "SYSCO, 7314452.0",
+      "SYSCO, 7314452",
       "SYSCO, DARK SOY SAUCE"
     ],
     [
-      "SYSCO, 7045184.0",
+      "SYSCO, 7045184",
       "SYSCO, BLACK GARLIC SHOYU"
     ],
     [
-      "SYSCO/JADE MOUNTAIN, 1425982.0",
-      "SYSCO/JADE MOUNTAIN, MILK COCONUT UNSWEETENED"
+      "SYSCO, 1425982",
+      "SYSCO, COCONUT MILK 13.5 OZ"
     ],
     [
-      "SYSCO, 7283258.0",
-      "SYSCO, BULGOGI SAUCE"
+      "SYSCO, 7283258",
+      "SYSCO, KOREAN BBQ"
     ],
     [
-      "SYSCO, 7028733.0",
+      "SYSCO, 7028733",
       "SYSCO, RED CURRY PASTE"
     ],
     [
@@ -2885,7 +2967,7 @@
       "NAN, HARISSA"
     ],
     [
-      "SYSCO, 2837235.0",
+      "SYSCO, 2837235",
       "SYSCO, SOBA NOODLES"
     ],
     [
@@ -2893,80 +2975,80 @@
       "NAN, POPPEN DELLE"
     ],
     [
-      "SYSCO, 1627900.0",
+      "SYSCO, 1627900",
       "SYSCO, FETTUCCINE"
     ],
     [
-      "SYSCO, 2217875.0",
+      "SYSCO, 2217875",
       "SYSCO, SQUID INK"
     ],
     [
-      "SYSCO/PASTA LABELLA, 4862959.0",
-      "SYSCO/PASTA LABELLA, PASTA LINGUINE 10 INCH"
+      "SYSCO, 4862959",
+      "SYSCO, LINGUINI PASTA LABELLA"
     ],
     [
-      "SYSCO/PASTA LABELLA, 4862967.0",
-      "SYSCO/PASTA LABELLA, PASTA CAPELLINI 10\""
+      "SYSCO, 4862967",
+      "SYSCO, ANGEL HAIR"
     ],
     [
       "GFS, NAN",
       "GFS, GNOCCHI"
     ],
     [
-      "SYSCO, 5310586.0",
+      "SYSCO, 5310586",
       "SYSCO, ACINI DE PEPE"
     ],
     [
-      "SYSCO, 4365268.0",
+      "SYSCO, 4365268",
       "SYSCO, LASAGNA NOODLES"
     ],
     [
-      "SYSCO/BARILLA ITALIAN PASTA, 4069926.0",
-      "SYSCO/BARILLA ITALIAN PASTA, PASTA PENNE RIGATE GLUTEN FREE"
+      "SYSCO, 4069926",
+      "SYSCO, GF PENNE"
     ],
     [
-      "SYSCO/PASTA LABELLA, 4862777.0",
-      "SYSCO/PASTA LABELLA, PASTA SHELL SMALL"
+      "SYSCO, 4862777",
+      "SYSCO, SEA SHELL"
     ],
     [
-      "SYSCO/BARILLA ITALIAN PASTA, 7967144.0",
-      "SYSCO/BARILLA ITALIAN PASTA, PASTA SPAGHETTI"
+      "SYSCO, 7967144",
+      "SYSCO,  SPAGHETTI"
     ],
     [
-      "SYSCO, 1751148.0",
+      "SYSCO, 1751148",
       "SYSCO,  LINGUINI MAMUCCI"
     ],
     [
       "SYSCO, NAN",
-      "SYSCO, ROTINI"
+      "SYSCO,  ROTINI"
     ],
     [
-      "SYSCO, 4005617.0",
+      "SYSCO, 4005617",
       "SYSCO, TERIYAKI"
     ],
     [
-      "SYSCO, 4005567.0",
+      "SYSCO, 4005567",
       "SYSCO, SOY"
     ],
     [
-      "SYSCO, 6365967.0",
-      "SYSCO, MIXED NUT CASHEW"
+      "SYSCO, 6365967",
+      "SYSCO, MIXED NUTS"
     ],
     [
-      "SYSCO/NATURE VALLEY, 7082091.0",
-      "SYSCO/NATURE VALLEY, SNACK BAR GRANOLA VARIETY 3 FLAVOR"
+      "SYSCO, 7082091",
+      "SYSCO, GRANOLA BARS"
     ],
     [
-      "SYSCO/M&M, 6080550.0",
-      "SYSCO/M&M, CANDY M&M'S PLAIN BULK"
+      "SYSCO, 6080550",
+      "SYSCO, M&M'S PLAIN"
     ],
     [
-      "SYSCO, 5837703.0",
+      "SYSCO, 5837703",
       "SYSCO, GOLDEN RAISINS"
     ],
     [
-      "SYSCO/NATURE VALLEY, 6045371.0",
-      "SYSCO/NATURE VALLEY, CEREAL GRANOLA FRUIT BULKPAK"
+      "SYSCO, 6045371",
+      "SYSCO, BULK GRANOLA"
     ],
     [
       "NAN, NAN",
@@ -2977,75 +3059,75 @@
       "NAN, POTATO REAL MASHED"
     ],
     [
-      "SYSCO, 7063077.0",
+      "SYSCO, 7063077",
       "SYSCO, RELISH DILL PICKLE"
     ],
     [
-      "SYSCO, 141382.0",
+      "SYSCO, 0141382",
       "SYSCO, SWEET PICKLE RELISH"
     ],
     [
-      "SYSCO, 1904509.0",
+      "SYSCO, 1904509",
       "SYSCO, SLICED JALAPENO"
     ],
     [
-      "SYSCO, 5287269.0",
+      "SYSCO, 5287269",
       "SYSCO, SWEET GHERKINS"
     ],
     [
-      "SYSCO, 151431.0",
+      "SYSCO, 0151431",
       "SYSCO, SLICED BANANA PEPPERS"
     ],
     [
-      "SYSCO, 4355414.0",
+      "SYSCO, 4355414",
       "SYSCO, PEPPERONCINI"
     ],
     [
-      "SYSCO, 5.523808552381655E+27",
+      "SYSCO, 5523808, 5523816, 5529664, 5523949",
       "SYSCO, NUTRI-GRAIN BARS"
     ],
     [
-      "SYSCO, 5429776.0",
+      "SYSCO, 5429776",
       "SYSCO, KALAMATA OLIVES"
     ],
     [
-      "SYSCO, 5176748.0",
+      "SYSCO, 5176748",
       "SYSCO, CLAM JUICE"
     ],
     [
-      "SYSCO, 8576274.0",
+      "SYSCO, 8576274",
       "SYSCO, ALBACORE TUNA"
     ],
     [
-      "SYSCO/HERSHEY, 4441457.0",
-      "SYSCO/HERSHEY, SYRUP CHOCOLATE SQUEEZE BOTTLE"
+      "SYSCO, 4441457",
+      "SYSCO, HERSHEY SYRUP"
     ],
     [
-      "SYSCO/J.HUNGERFORD SMITH, 4005211.0",
-      "SYSCO/J.HUNGERFORD SMITH, TOPPING HOT FUDGE MELLOWCREAM 60517"
+      "SYSCO, 4005211",
+      "SYSCO, HOT FUDGE"
     ],
     [
-      "SYSCO/J.HUNGERFORD SMITH, 4005211.0",
-      "SYSCO/J.HUNGERFORD SMITH, TOPPING HOT FUDGE MELLOWCREAM 60517"
+      "SYSCO, 4005211",
+      "SYSCO, MALLO CRÈME"
     ],
     [
-      "SYSCO/IMPERIAL, 5083944.0",
-      "SYSCO/IMPERIAL, CHERRY MARASCHINO WITH STEMS LARGE IN PLASTIC JAR"
+      "SYSCO, 5083944",
+      "SYSCO, MARASCHINO CHERRIES"
     ],
     [
-      "SYSCO/REALEMON, 8624161.0",
-      "SYSCO/REALEMON, JUICE LEMON"
+      "SYSCO, 8624161",
+      "SYSCO, LEMON JUICE"
     ],
     [
-      "SYSCO/SACRAMENTO, 393294.0",
-      "SYSCO/SACRAMENTO, JUICE TOMATO"
+      "SYSCO, 0393294",
+      "SYSCO, TOMATO JUICE"
     ],
     [
-      "SYSCO/V-8, 4019139.0",
-      "SYSCO/V-8, JUICE VEGETABLE"
+      "SYSCO, 4019139",
+      "SYSCO, V8"
     ],
     [
-      "SYSCO, 4790325.0",
+      "SYSCO, 4790325",
       "SYSCO, CHOCOLATE FUDGE TOPPING"
     ],
     [
@@ -3053,8 +3135,8 @@
       "NAN, HOUSE PACIFIC CHOCOLATE SYRUP"
     ],
     [
-      "SYSCO/CLASSIC, 1484106.0",
-      "SYSCO/CLASSIC, APPLESAUCE IN JUICE UNSWEETENED CUP"
+      "SYSCO, 1484106",
+      "SYSCO, INCLUDED APPLE SAUCE"
     ],
     [
       "NAN, NAN",
@@ -3074,6 +3156,12 @@
     ],
     [
       "NAN, NAN",
+      "NAN, STOREROOM TOTAL:"
+    ]
+  ],
+  "HENRY CENTER FREEZER - SPEED RACK": [
+    [
+      "NAN, NAN",
       "NAN, HAM"
     ],
     [
@@ -3082,7 +3170,7 @@
     ],
     [
       "NAN, NAN",
-      "NAN, RIBS"
+      "NAN, RIBS "
     ],
     [
       "SYSCO, NAN",
@@ -3106,15 +3194,15 @@
     ],
     [
       "NAN, NAN",
-      "NAN, TURKEY WING"
+      "NAN, TURKEY WING "
     ],
     [
       "NAN, NAN",
-      "NAN, NEW ZEALAND SEABASS"
+      "NAN, NEW ZEALAND SEABASS "
     ],
     [
       "SYSCO, NAN",
-      "SYSCO, ASIAN SEABASS"
+      "SYSCO, ASIAN SEABASS "
     ],
     [
       "NAN, NAN",
@@ -3126,20 +3214,26 @@
     ],
     [
       "NAN, NAN",
-      "NAN, MAHI MAHI"
+      "NAN, MAHI MAHI "
     ],
     [
       "SYSCO/SUPERIOR?, NAN",
-      "SYSCO/SUPERIOR?, SNAPPER"
+      "SYSCO/SUPERIOR?, SNAPPER "
     ],
     [
       "NAN, NAN",
-      "NAN, BARAMUNDI"
+      "NAN, BARAMUNDI "
     ],
     [
       "SYSCO, NAN",
-      "SYSCO, OYSTER HALF"
+      "SYSCO, OYSTER HALF "
     ],
+    [
+      "NAN, NAN",
+      "NAN, HENRY CENTER FREEZER - SPEED RACK TOTAL:"
+    ]
+  ],
+  "HENRY CENTER FREEZER": [
     [
       "NAN, NAN",
       "NAN, LATIN CHICKEN TURNOVER"
@@ -3150,27 +3244,27 @@
     ],
     [
       "SYSCO, NAN",
-      "SYSCO, EDAMI POTSTICKERS"
+      "SYSCO, EDAMI POTSTICKERS "
     ],
     [
       "SYSCO, NAN",
       "SYSCO, MINI CRABCAKES"
     ],
     [
-      "SYSCO/PREMIUM, 1237056.0",
-      "SYSCO/PREMIUM, APPETIZER SCALLOP BACON"
+      "SYSCO, 1237056",
+      "SYSCO, SCALLOP BACON"
     ],
     [
-      "SYSCO, 7045694.0",
+      "SYSCO, 7045694",
       "SYSCO, MARSCOPONE SPINACH RAVIOLI"
     ],
     [
       "NAN, NAN",
-      "NAN, LOBSTER RAVIOLI"
+      "NAN, LOBSTER RAVIOLI "
     ],
     [
-      "SYSCO/ARREZZIO, 7265421.0",
-      "SYSCO/ARREZZIO, PASTA GNOCCHI CHEESE"
+      "SYSCO, 7265421",
+      "SYSCO, GNOCCI"
     ],
     [
       "SYSCO, NAN",
@@ -3185,8 +3279,8 @@
       "NAN, BUFFALO SPRING ROLL"
     ],
     [
-      "SYSCO/JADE MOUNTAIN, 4240331.0",
-      "SYSCO/JADE MOUNTAIN, APPETIZER VEGETABLE SPRING ROLL"
+      "SYSCO, 4240331",
+      "SYSCO, VEGETABLE SPRING ROLL"
     ],
     [
       "NORTHERN LAKE, NAN",
@@ -3198,7 +3292,7 @@
     ],
     [
       "NORTHERN LAKE, NAN",
-      "NORTHERN LAKE, PIMENTO MAC & CHZ BALLS"
+      "NORTHERN LAKE, PIMENTO MAC & CHZ BALLS "
     ],
     [
       "NAN, NAN",
@@ -3214,22 +3308,22 @@
     ],
     [
       "SYSCO, NAN",
-      "SYSCO, MINI CHICKEN QUESADILLA"
+      "SYSCO, MINI CHICKEN QUESADILLA "
     ],
     [
       "VAN EERDEN, NAN",
-      "VAN EERDEN, BREADED ASPARAGUS"
+      "VAN EERDEN, BREADED ASPARAGUS "
     ],
     [
       "SYSCO, NAN",
-      "SYSCO, MINI BEEF WELLINGTON"
+      "SYSCO, MINI BEEF WELLINGTON "
     ],
     [
       "SYSCO, NAN",
       "SYSCO, BEEF BOURGUIGNON"
     ],
     [
-      "SYSCO, 292732.0",
+      "SYSCO, 292732",
       "SYSCO, SHITAKE POTSTICKERS"
     ],
     [
@@ -3262,7 +3356,7 @@
     ],
     [
       "SUPERIOR, NAN",
-      "SUPERIOR, KING CRAB LEGS"
+      "SUPERIOR, KING CRAB LEGS "
     ],
     [
       "NAN, NAN",
@@ -3286,7 +3380,7 @@
     ],
     [
       "SYSCO, NAN",
-      "SYSCO, MANGO CHUNKS"
+      "SYSCO, MANGO CHUNKS "
     ],
     [
       "SYSCO, NAN",
@@ -3297,28 +3391,28 @@
       "SYSCO, CATFISH NUGGETS"
     ],
     [
-      "SYSCO, 1254390.0",
+      "SYSCO, 1254390",
       "SYSCO, BLUEBERRIES "
     ],
     [
-      "SYSCO/IMPERIAL, 7107838.0",
-      "SYSCO/IMPERIAL, APPETIZER PEPPER JALAPENO CREAM CHEESE BREADED"
+      "SYSCO, 7107838",
+      "SYSCO, JALAPENO POPPERS"
     ],
     [
-      "SYSCO/CLASSIC, 3094962.0",
-      "SYSCO/CLASSIC, POTATO DICED COOKED RED SKIN-ON"
+      "SYSCO, 3094962",
+      "SYSCO, DICED BREAKFAST POTATOES"
     ],
     [
-      "SYSCO/ARREZZIO, 7265421.0",
-      "SYSCO/ARREZZIO, PASTA GNOCCHI CHEESE"
+      "SYSCO, 7265421",
+      "SYSCO, GNOCCHI "
     ],
     [
-      "SYSCO, 7046157.0",
+      "SYSCO, 7046157",
       "SYSCO, 12OZ STRIPS "
     ],
     [
-      "SYSCO/BUTCHER'S BLOCK, 4230967.0",
-      "SYSCO/BUTCHER'S BLOCK, BEEF RIBEYE LIP-ON BONELESS"
+      "SYSCO, 4230967",
+      "SYSCO, 12OZ RIBEYES"
     ],
     [
       "SYSCO, NAN",
@@ -3326,15 +3420,15 @@
     ],
     [
       "SYSCO, NAN",
-      "SYSCO, HONEY MAPLE TURKEY BREAST"
+      "SYSCO, HONEY MAPLE TURKEY BREAST "
     ],
     [
       "NAN, NAN",
-      "NAN, FROZEN LEMONADE"
+      "NAN, FROZEN LEMONADE "
     ],
     [
       "NAN, NAN",
-      "NAN, COCONUT CHICKEN"
+      "NAN, COCONUT CHICKEN "
     ],
     [
       "NAN, NAN",
@@ -3345,7 +3439,7 @@
       "NAN, RUBY RED STEELHEAD TROUT"
     ],
     [
-      "SYSCO, 1633312.0",
+      "SYSCO, 1633312",
       "SYSCO, PORK POTSTICKERS "
     ],
     [
@@ -3365,12 +3459,12 @@
       "SUPERIOR, WAYGU BRISKET"
     ],
     [
-      "SYSCO, 1902588.0",
+      "SYSCO, 1902588",
       "SYSCO, SOURDOUGH BREAD"
     ],
     [
-      "SYSCO/LAMB SUPREME, 1257734.0",
-      "SYSCO/LAMB SUPREME, POTATO HASH BROWN SIDE O BROWN 2.25 OZ"
+      "SYSCO, 1257734",
+      "SYSCO, HASH BROWN PATTY "
     ],
     [
       "SYSCO, NAN",
@@ -3385,56 +3479,56 @@
       "SYSCO, SLIDER BUNS"
     ],
     [
-      "SYSCO, 7225752.0",
+      "SYSCO, 7225752",
       "SYSCO, DOUBLE-LOBE CHICKEN BREAST "
     ],
     [
-      "SYSCO/COLEMAN NATURAL MEAT, 1534452.0",
-      "SYSCO/COLEMAN NATURAL MEAT, CHICKEN BONELESSS SKINLESS BREAST 6OZ"
+      "SYSCO, 1534452",
+      "SYSCO, SINGLE-LOBE CHICKEN BREAST"
     ],
     [
       "SUPERIOR, NAN",
       "SUPERIOR, AMISH CHICKEN WINGS"
     ],
     [
-      "SYSCO/CLASSIC, 4347126.0",
-      "SYSCO/CLASSIC, TURKEY BREAST BONELESS RAW FOIL 32%"
+      "SYSCO, 4347126",
+      "SYSCO, WHOLE TURKEY BREAST BONELESS FOIL"
     ],
     [
-      "SYSCO/JIMMY DEAN, 1494079.0",
-      "SYSCO/JIMMY DEAN, SAUSAGE LINKS 1 OZ"
+      "SYSCO, 1494079",
+      "SYSCO, PORK SAUSAGE LINKS COOKED"
     ],
     [
-      "SYSCO/FARM RICH, 1251461.0",
-      "SYSCO/FARM RICH, TOAST FRENCH STICK HEAT & SERVE"
+      "SYSCO, 1251461",
+      "SYSCO, FRENCH TOAST STICKS"
     ],
     [
       "NAN, NAN",
-      "NAN, PEPPERONI"
+      "NAN, PEPPERONI "
     ],
     [
-      "SYSCO, 2527653.0",
-      "SYSCO, CRANBERRIES"
+      "SYSCO, 2527653",
+      "SYSCO, CRANBERRIES "
     ],
     [
       "SYSCO, NAN",
-      "SYSCO, VEGAN BREAKFAST SAUSAGE"
+      "SYSCO, VEGAN BREAKFAST SAUSAGE "
     ],
     [
-      "SYSCO, 6820880.0",
-      "SYSCO, FLAT BREAD"
+      "SYSCO, 6820880",
+      "SYSCO, FLATBREAD "
     ],
     [
       "NAN, NAN",
       "NAN, BREAKFAST POTATOES"
     ],
     [
-      "SYSCO, 7338718.0",
+      "SYSCO, 7338718",
       "SYSCO, PLANT-BASED CHIX NUGGETS"
     ],
     [
-      "SYSCO/HIGHLINER, 2942728.0",
-      "SYSCO/HIGHLINER, COD BATTERED BEER GUINNESS"
+      "SYSCO, 2942728",
+      "SYSCO, GUINESS COD"
     ],
     [
       "SUPERIOR, NAN",
@@ -3449,39 +3543,28 @@
       "SYSCO, CHICKEN SALSA VERDE TAMALES"
     ],
     [
-      "SYSCO/BRAKEBUSH BROTHERS, 3606712.0",
-      "SYSCO/BRAKEBUSH BROTHERS, CHICKEN POPCORN ALL WHITE BREADED"
+      "SYSCO, 3606712",
+      "SYSCO, CHICKEN POPCORN BREADED"
     ],
     [
-      "SYSCO/BLOCK & BARREL, 6421895.0",
-      "SYSCO/BLOCK & BARREL, CHICKEN HALF OVEN ROASTED FRESH"
+      "SYSCO, 6421895",
+      "SYSCO, OVEN ROASTED CHICKEN"
     ],
     [
-      "SYSCO, 1031657.0",
+      "SYSCO, 1031657",
       "SYSCO, CHICKEN WINGS"
     ],
     [
-      "SYSCO/BAKER'S SOURCE, 7223080.0",
-      "SYSCO/BAKER'S SOURCE, BUN HOT DOG WHITE 6 HINGED"
+      "SYSCO, 7223080",
+      "SYSCO, HOTDOG BUNS"
     ],
     [
-      "SYSCO, 6780033.0",
+      "SYSCO, 6780033",
       "SYSCO, BASEBALL SIRLOIN"
+    ],
+    [
+      "NAN, NAN",
+      "NAN, HENRY CENTER FREEZER TOTAL:"
     ]
-  ],
-  "MK BLUE RACK": [],
-  "MK 4 DOOR FREEZER": [],
-  "MK HOT LINE": [],
-  "MK HOT LINE FREEZER": [],
-  "MK BACK SHELF": [],
-  "UPSTAIRS ICE CREAM FREEZER": [],
-  "GARDE MANGER COOLER": [],
-  "GARDE MANGER STATION": [],
-  "BASEMENT FREEZER": [],
-  "BASEMENT WALK IN": [],
-  "BASEMENT ICE CREAM FREEZER": [],
-  "BASEMENT PROTEIN FREEZER": [],
-  "STOREROOM": [],
-  "HENRY CENTER FREEZER - SPEED RACK": [],
-  "HENRY CENTER FREEZER": []
+  ]
 }

@@ -15,7 +15,7 @@ import os
 import shutil
 import datetime
 
-def move_and_archive_document(filename, origin_dir, destination_dir):
+def move_and_archive_document(filename, origin_dir, destination_dir, remove = False):
     """
     Copies a specified file from the origin directory to the destination directory,
     appending a datetime stamp to the copied file's name. The original file
@@ -53,21 +53,22 @@ def move_and_archive_document(filename, origin_dir, destination_dir):
         os.makedirs(destination_dir, exist_ok=True)
         print(f"Created destination directory: {destination_dir}")
 
-    # --- 3. COPY THE FILE ---
+     # --- 3. COPY THE FILE ---
     try:
-        # Use shutil.copy2() to copy the file (including metadata)
-        # The file remains in source_path (origin_dir)
         shutil.copy2(source_path, destination_path)
-        
-        print(f"Successfully archived: {filename}")
-        print(f"Original file saved in: {origin_dir}")
-        print(f"Archived copy moved to: {destination_dir}")
-        print(f"New archived filename: {new_filename}")
+        print(f"Archived: {filename} → {destination_path}")
+
+        # --- 4. OPTIONALLY REMOVE ORIGINAL ---
+        if remove:
+            os.remove(source_path)
+            print(f"Removed original file from: {origin_dir}")
+        else:
+            print(f"Original file retained in: {origin_dir}")
 
     except FileNotFoundError:
         print(f"Error: Source file not found at {source_path}")
     except Exception as e:
-        print(f"An unexpected error occurred while archiving the file: {e}")
+        print(f"Unexpected error while archiving {filename}: {e}")
 
     print("")
     return
@@ -84,20 +85,20 @@ def update_master(master_key, row, curr_section, order):
   if master_key not in master_dict:
     # if not, add this as a new item to master_dict
     master_dict[master_key] = {
-      "ITEM_DESC": [str(row["ITEM"]).upper()],
+      "ITEM_DESC": [str(row["ITEM_DESC"]).upper()],
       "SECTIONS": [[curr_section, order]],
-      "PRICES": [row["UNIT_PRICE"]],
-      "UNITS": [row["UNIT_TYPE"]],
+      "PRICES": [row["PRICE"]],
+      "UNITS": [row["UNIT"]],
       "QUANTITY": [row["QUANTITY"]],
     }
 
   else: 
     # we have seen this item code before, append it's information
     vcode_info = master_dict[master_key]
-    vcode_info['ITEM_DESC'].append(str(row["ITEM"]).upper())
+    vcode_info['ITEM_DESC'].append(str(row["ITEM_DESC"]).upper())
     vcode_info['SECTIONS'].append([curr_section, order])
-    vcode_info['PRICES'].append(row["UNIT_PRICE"])
-    vcode_info['UNITS'].append(row["UNIT_TYPE"])
+    vcode_info['PRICES'].append(row["PRICE"])
+    vcode_info['UNITS'].append(row["UNIT"])
     vcode_info['QUANTITY'].append(row["QUANTITY"])
   
   return
@@ -108,8 +109,8 @@ def update_misc(misc_key, row, curr_section, order):
     # add new item description to dict
     misc_dict[misc_key] = {
       "SECTIONS": [[curr_section, order]],
-      "PRICES": [row["UNIT_PRICE"]],
-      "UNITS": [row["UNIT_TYPE"]],
+      "PRICES": [row["PRICE"]],
+      "UNITS": [row["UNIT"]],
       "QUANTITY": [row["QUANTITY"]],
     }
 
@@ -117,8 +118,8 @@ def update_misc(misc_key, row, curr_section, order):
     # we've seen this item desc before, append info
     item_info = misc_dict[misc_key]
     item_info['SECTIONS'].append([curr_section, order])
-    item_info['PRICES'].append(row["UNIT_PRICE"])
-    item_info['UNITS'].append(row["UNIT_TYPE"])
+    item_info['PRICES'].append(row["PRICE"])
+    item_info['UNITS'].append(row["UNIT"])
     item_info['QUANTITY'].append(row["QUANTITY"])
 
   return
@@ -127,11 +128,11 @@ def update_misc(misc_key, row, curr_section, order):
 
 def main():
 
-  
+
   # read in file
   # focus only on first 8 columns
   # look for files in inputs/inventories
-  input_folder = "inputs/inventories/"
+  input_folder = "inputs\\inventories\\"
   input_files = [f for f in os.listdir(input_folder) if f.endswith(".xlsx")]
   # if xlsx file is found in inventories, open that filename and run
   if len(input_files) < 1:
@@ -140,40 +141,37 @@ def main():
   ## FILE OPENING
   df = pd.read_excel("".join([input_folder, input_files[0]]))
 
-  # df = pd.read_excel("master/Coding_Inventory.xlsx").iloc[:, range(8)]
-
   df.columns = [
-    "INDEX", "VENDOR/BRAND", "ITEM_DESC", "UNIT", 
-    "PACK", "PER_PACK", "PRICE", "EST_PRICE"
+    "INDEX", "VENDOR/BRAND", "VENDOR_CODE", "ITEM_DESC", "UNIT", "PACK", 
+    "PER_PACK", "PRICE", "QUANTITY", "EST_PRICE", "TOTAL_EST_VALUE"
     ]
 
   section_areas = [
     "MK WALK IN", "MK BLUE RACK", "MK 4 DOOR FREEZER", "MK HOT LINE", 
     "MK HOT LINE FREEZER", "MK BACK SHELF", "UPSTAIRS ICE CREAM FREEZER", 
     "GARDE MANGER COOLER", "GARDE MANGER STATION", "BASEMENT FREEZER", 
-    "BASEMENT WALK-IN", "BASEMENT ICE CREAM FREEZER", "BASEMENT PROTEIN FREEZER",
+    "BASEMENT WALK IN", "BASEMENT ICE CREAM FREEZER", "BASEMENT PROTEIN FREEZER",
     "STOREROOM", "HENRY CENTER FREEZER - SPEED RACK", "HENRY CENTER FREEZER"
   ]
 
   curr_section = "MK WALK IN" # first section read with excel sheet
 
-    
-
-
   all_sections_info = {section: [] for section in section_areas}
 
-
+  order = 0
 
   for i in range(df.shape[0]):
 
     row = df.iloc[i, :]
     # creation of keys for dictionaries
-    master_key = "".join([str(row["VENDOR"]), ", ", str(row["VENDOR_CODE"])]).upper()
-    misc_key = "".join([str(row["VENDOR"]), ", ", str(row["ITEM"])]).upper()
+    master_key = "".join([
+      str(row["VENDOR/BRAND"]), ", ", str(row["VENDOR_CODE"])]).upper()
+    misc_key = "".join([
+      str(row["VENDOR/BRAND"]), ", ", str(row["ITEM_DESC"])]).upper()
     
     # is this item in fact a section name?
-    if row["ITEM"] in section_areas:
-      curr_section = row["ITEM"]
+    if row["ITEM_DESC"] in section_areas:
+      curr_section = row["ITEM_DESC"]
       curr_section = curr_section.strip()
       order = 0
 
@@ -181,8 +179,8 @@ def main():
 
     
 
-    # is this not an item, either an empty row or a column header name "item"
-    elif row["ITEM"] == "Item" or pd.isna(row["ITEM"]):
+    # is this not an item, either an empty row or a column header name "ITEM_DESC"
+    elif row["ITEM_DESC"] == "ITEM_DESC" or pd.isna(row["ITEM_DESC"]):
       # ignore this non-item row
       continue
 
@@ -202,21 +200,34 @@ def main():
 
 
 
+  for filename in [
+    "sections_order_info.json",
+    "misc_item_locs.json",
+    "vcode_locs.json"]:
+    folder_name = filename.split(".")[0]
+    move_and_archive_document(
+      filename, "master\\schemas\\", 
+      "".join(["master\\schemas\\archive\\", folder_name]))
 
   # save all_sections_info
-  move_and_archive_document("sections_order_info.json", "master\\schemas", "master\\schemas")
-  with open("master\\sections_order_info.json", "w") as file:
+  with open("master\\archive\\sections_order_info.json", "w") as file:
     json.dump(all_sections_info, file, indent = 2, ensure_ascii = False)
-
-  move_and_archive_document("vcode_locs.json", "master\\schemas", "master\\schemas")
-  with open("master\\vcode_locs.json", "w") as file:
+  
+  # vcode info
+  with open("master\\archive\\vcode_locs.json", "w") as file:
     json.dump(master_dict, file, indent = 2, ensure_ascii = False)
 
-  move_and_archive_document("misc_item_locs.json", "master\\schemas", "master\\schemas")
-  with open("master\\misc_item_locs.json", "w") as file:
+  # misc items
+  with open("master\\archive\\misc_item_locs.json", "w") as file:
     json.dump(misc_dict, file, indent = 2, ensure_ascii = False)
-  
 
+  # move and archive the read inventory into processed_inventories
+  move_and_archive_document(
+    input_files[0],
+    input_folder,
+    "inputs\\inventories\\processed_inventories\\",
+    remove = True
+  )
 
 
 

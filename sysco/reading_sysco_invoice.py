@@ -42,7 +42,7 @@ import pytesseract as tess
 import pandas as pd
 import io
 import os
-from . import sysco_source as ss
+import sysco_source as ss
 import time
 import warnings
 
@@ -78,7 +78,7 @@ def main():
 
   
   ## FILE OPENING
-  input_folder = "inputs/invoices"
+  input_folder = "inputs\\invoices"
   input_files = [f for f in os.listdir(input_folder) if f.endswith(".pdf")]
 
   if len(input_files) < 1:
@@ -106,7 +106,7 @@ def main():
     print(f"Analyzing {n_pages} pages in doc {doc_num + 1}/{n_docs}, {file}")
     
     ## MAIN PROCESSING LOOP
-    for page_num in range(10,n_pages):
+    for page_num in range(n_pages):
       
       ## EXTRACTING INDIVIDUAL SHEET FROM PDF FORMAT
       img = doc[page_num].get_images(full = True)[0]
@@ -188,16 +188,16 @@ def main():
 
 
     ## if we have finished analyzing a document, move that document from 
-    # vendors/sysco/inputs into inputs/processed
+    # vendors/sysco/inputs into inputs\\processed
     doc.close()
-    processed_path = os.path.join('inputs','processed_invoices')
+    processed_path = os.path.join('inputs\\invoices','processed_invoices')
     ss.move_analyzed_document(file, input_folder, processed_path)
 
 
 
   ## FINAL OUTPUT PROCESSING
-  info_directory = 'master/inputs'
-  error_directory = 'vendors/sysco/errors'
+  info_directory = 'master\\inputs'
+  error_directory = 'master\\errors'
 
 
   if not os.path.exists(info_directory):
@@ -207,12 +207,12 @@ def main():
   
 
   info_path = os.path.join(info_directory, "sysco_info.csv")
-  error_path = os.path.join(error_directory, "sysco_error.csv")
+  # error_path = os.path.join(error_directory, "sysco_error.csv")
   
   # save inventory info
   inv_info = pd.DataFrame(
     pricing_data,
-    columns = ["VENDOR_CODE", "UNIT_PRICE", "LAST_UPDATE", "ACCOUNT","PAGE"])
+    columns = ["VENDOR_CODE", "PRICE", "LAST_UPDATE", "ACCOUNT","PAGE"])
 
   # --- 4. Group, Sort, and Select the Newest Row per Group (The Python Equivalent) ---
 
@@ -226,10 +226,10 @@ def main():
   newest_prices.to_csv(info_path)
 
   # save error info
-  error_df = pd.DataFrame(
-    error_info, columns = ["DOC", "PAGE", "PAIRS", "PRICES", "DATE", "ACCOUNT"])
+  # error_df = pd.DataFrame(
+  #   error_info, columns = ["DOC", "PAGE", "PAIRS", "PRICES", "DATE", "ACCOUNT"])
 
-  error_df.to_csv(error_path)
+  # error_df.to_csv(error_path)
 
   # final cleanup message
   print("\nAnalysis complete. Results saved to CSV files.")
