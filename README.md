@@ -1,10 +1,19 @@
 
 
 
+This project was created by Colin W Fairbourn (he/him) during the Fall of 2025. Purpose is to assist the admin at the University Club of MSU in maintaining accurate and up to date information on their inventory by analyzing invoices given to us by Sysco, gathering the information on any and all items purchased and their price, so that when inventory is counted, they have accurate and recent prices on any items are in inventory.
 
 
 
+- Process - This is a multi step process. Where each step requires manual action / input.
+  1. Place a scanned Sysco invoice into 'inputs\\invoices\\' where the every page that is a tabular invoice of all items purchased is rotated so that the top of the landscape page would be on the right hand side in portrait.
+  2. Run 'read_invoice_update_master.py'
+  3. With access to an account to log into Sysco's shopping website, open the updated file 'deliverables\\master_inventory.csv', for any item that is flagged for review, or that lacks important information, input that item code into Sysco's search bar, find the item, and enter the information from the website, like vendor, item desc, unit, pack size, quantity per pack, etc.
+  4. Assuming an older inventory has been placed in 'inputs\\inventories\\', and that no major change has been made to the format of the excel document, such as no changing the order of columns, or the number of columns, either by removing or adding more, run 'generate_inventory_sheet.py'
+  5. In 'deliverables\\printable_inventory_sheet.xlsx', hide any columns that might be deemed unnecessary for the counter. Recommended columns include 'VENDOR_CODE', 'EST_PRICE', 'TOTAL_EST_PRICE', and then by printing the sheet.
+  6. When inventory has been counted, and it's time to enter the counts, it is recommended that a copy of the 'printable_inventory_sheet.xlsx' is created and that the counts are entered into this copy, along with any minor changes (like adding, removing, or moving items and/or rows). This filled out and new inventory sheet is what can be used the next time this program is run and a new inventory sheet is created.
 
+___
 
 - Directories:
   - deliverables\\:
@@ -54,88 +63,7 @@
     - This is another two step program, where each step is handled by another program.
       1. reading_sysco_invoice.py
       2. update_pricing.py
-- Process
-  - This is a multi step process. Where each step requires manual action / input.
-    1. Place a scanned Sysco invoice into 'inputs\\invoices\\' where the every page that is a tabular invoice of all items purchased is rotated so that the top of the landscape page would be on the right hand side in portrait.
-    2. Run 'read_invoice_update_master.py'
-    3. With access to an account to log into Sysco's shopping website, open the updated file 'deliverables\\master_inventory.csv', for any item that is flagged for review, or that lacks important information, input that item code into Sysco's search bar, find the item, and enter the information from the website, like vendor, item desc, unit, pack size, quantity per pack, etc.
-    4. Assuming an older inventory has been placed in 'inputs\\inventories\\', and that no major change has been made to the format of the excel document, such as no changing the order of columns, or the number of columns, either by removing or adding more, run 'generate_inventory_sheet.py'
-    5. In 'deliverables\\printable_inventory_sheet.xlsx', hide any columns that might be deemed unnecessary for the counter. Recommended columns include 'VENDOR_CODE', 'EST_PRICE', 'TOTAL_EST_PRICE', and then by printing the sheet.
-    6. When inventory has been counted, and it's time to enter the counts, it is recommended that a copy of the 'printable_inventory_sheet.xlsx' is created and that the counts are entered into this copy, along with any minor changes (like adding, removing, or moving items and/or rows). 
-      - This filled out and new inventory sheet is what can be used the next time this program is run and a new inventory sheet is created.
 
 
+___
 
-
-
-
-
-
-
-
-
-This is a project that keeps getting longer and better
-
-
-main process
-
-manual labor part:
-invoices will be scanned and sent to AP email
-invoices will be downloaded from AP email
-
-(potential automation task) invoices will be identified, renamed, put into respective folders for accounting AP invoices
-
-once invoices have been identified and moved into the correct vendor's folder, when we find that an invoice belongs to a desired vendor, also place that invoice into the inputs directory for the respective vendor's directory
-
-when all inputs have been sorted to their respective vendors, run each vendor's scanning and analysis program for which there is an input (i have just finished this for sysco only)
-  and outputs the analyzed data file into the input folder in master
-  and moves the specific input into the master processed inputs
-
-then run master inventory pricing updating program
-where it will take the info files from inputs and update the master pricing list
-then program will move the files into processed inputs
-
-
-
-
-
-
-when creating the inventory sheet
-
-schemas
-
-
-
-
-
-
-how can I create all_sections
-
-problem is that item order
-
-
-
-all_sections = {
-  section1 = [item 1, item 2, ...],
-  section2 = [item 1, item 2, ...],
-  ...
-}
-
-
-
-for section in all_sections
-  grab that section_info from all_sections
-  section_info could just be a list of the items in the order that they appear
-  for item in section_info
-    get that item's master information from master list
-    display the key pieces of information from that item
-      ITEM NAME / DESCRIPTION - VENDOR/BRAND
-      UNIT TYPE - PACK SIZE - Q PER PACK - PRICE - [QUANTITY TO BE FILLED IN]
-
-
-
-
-
-things I'm currently waiting on
-  chef to update the current inventory list and remove the items that we aren't carrying anymore in the locations that he wants them to be
-  new invoices
